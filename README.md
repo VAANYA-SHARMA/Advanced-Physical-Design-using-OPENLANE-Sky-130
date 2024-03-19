@@ -9,8 +9,11 @@ This is a workshop which is about ASIC design using OPEN source tools.
 ### Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 
 How to talk to computers
+
 SoC design and OpenLANE
+
 Starting RISC-V SoC Reference design
+
 Get familiar to open-source EDA toolsDay 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 
 Chip Floor planning considerations
