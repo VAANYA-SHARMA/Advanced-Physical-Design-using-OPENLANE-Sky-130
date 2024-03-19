@@ -30,12 +30,12 @@ This is a workshop which is about ASIC design using OPEN source tools.
 
 ### Day 4 - Pre-layout timing analysis and importance of good clock tree
 
-Timing modelling using delay tables
-Timing analysis with ideal clocks using openSTA
-Clock tree synthesis TritonCTS and signal integrity
-Timing analysis with real clocks using openSTA
-Day 5 - Final steps for RTL2GDS
+#### Timing modelling using delay tables
+#### Timing analysis with ideal clocks using openSTA
+#### Clock tree synthesis TritonCTS and signal integrity
+#### Timing analysis with real clocks using openSTA
+### Day 5 - Final steps for RTL2GDS
 
-Routing and design rule check (DRC)
-PNR interactive flow tutorial
+#### Routing and design rule check (DRC)
+#### PNR interactive flow tutorial
 
