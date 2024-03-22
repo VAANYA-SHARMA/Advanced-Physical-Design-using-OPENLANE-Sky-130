@@ -36,7 +36,7 @@ Day 4 - Pre-layout timing analysis and importance of good clock tree
 
 ## Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### <br> How to talk to computers
-<br> Before starting with the concepts, here are some basic termonologies that will help you understand the after written things the better way:-
+<br> #### Before starting with the concepts, here are some basic termonologies that will help you understand the after written things the better way:-
 <br> 1.**PACKAGE:-** ***The case which has the chip and is connected to the circuit board. It is kind of a housing in which the chip is placed.***
 <br> 2.**WIRE BONDS:-** ***Through which the chip is connected to the package and the outside signals are received by the chip.***
 <br> 3.**Pads:-** ***Through which we can send in the signals to the chip or recive the signals from the chip.***
@@ -56,32 +56,7 @@ For designing such a circuit, we would first need to represnt it using a block d
 source of the image- VSD-IAT PLATFORM 
 <br> So, now in the same manner of block diagram based representation; let us go inside the package.......................
 <br> ![WhatsApp Image 2024-03-22 at 20 43 09_46be60ff](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/cae4a683-eabd-421e-a0bd-f1d08eecb9fe)
-![Certificate (1)](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5858b0f6-7472-4be4-91ce-e5a3cc2c32c7)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br> So as you saw that inside the package(the white outline) is kept the chip. And what are those white thread like structures ?? You must be wondering. These are the WIRE BONDS. You can know what is there function at [termonologies]()
 
 
 
