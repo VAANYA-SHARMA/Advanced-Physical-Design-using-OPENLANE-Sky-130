@@ -8,35 +8,29 @@ This is a workshop which is about ASIC design using OPEN source tools.
 ## Workshop Day wise Content 
 
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
-
-How to talk to computers
-
-SoC design and OpenLANE
-
-Starting RISC-V SoC Reference design
-
-Get familiar to open-source EDA tools
+<br> How to talk to computers
+<br> SoC design and OpenLANE
+<br> Starting RISC-V SoC Reference design
+<br> Get familiar to open-source EDA tools
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
-
-Chip Floor planning considerations
+<br> Chip Floor planning considerations
 <br> Library Binding and Placement
 <br> Cell design and characterization flows
 <br> General timing characterization parameters
-<br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 
+<br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 <br> Labs for CMOS inverter ngspice simulations
 <br> Inception of Layout – CMOS fabrication process
 <br> Sky130 Tech File Labs
 
 Day 4 - Pre-layout timing analysis and importance of good clock tree
-
 <br> Timing modelling using delay tables
 <br> Timing analysis with ideal clocks using openSTA
 <br> Clock tree synthesis TritonCTS and signal integrity
 <br> Timing analysis with real clocks using openSTA
-<br> Day 5 - Final steps for RTL2GDS
 
+<br> Day 5 - Final steps for RTL2GDS
 <br> Routing and design rule check (DRC)
 <br> PNR interactive flow tutorial
 
