@@ -54,7 +54,8 @@ For designing such a circuit, we would first need to represnt it using a block d
 <br> Like this :-
 <br> ![WhatsApp Image 2024-03-22 at 20 42 53_c0279c2d](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e4aa7533-886a-483b-b1ec-ad111819a3db)
 source of the image- VSD-IAT PLATFORM 
-
+<br> So, now in the same manner of block diagram based representation; let us go inside the package.......................
+<br> ![WhatsApp Image 2024-03-22 at 20 43 09_46be60ff](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/cae4a683-eabd-421e-a0bd-f1d08eecb9fe)
 
 
 
