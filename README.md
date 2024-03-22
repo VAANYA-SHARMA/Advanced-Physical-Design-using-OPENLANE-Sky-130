@@ -59,7 +59,7 @@ source of the image- VSD-IAT PLATFORM
 <br> SOURCE OF THE IMAGE - VSDIAT PLATFORM
 <br> So as you saw that inside the package(the white outline) is kept the chip. And what are those white thread like structures ?? You must be wondering. These are the WIRE BONDS. You can know what is there function at [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-)
 <br> The package shown above is a QFN-48 whose size is 7mm by 7mm, and these obviously vary in size and model.
-<br> So what if we try to know this package in amore detailed manner. Let us see the insides of a package :-
+<br> So what if we try to know this package in a more detailed manner. Let us see the insides of a package :-
 <br> ![WhatsApp Image 2024-03-22 at 20 43 20_67d9d238](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/4aafde57-5a33-4864-a7fb-0f7b566c83fa)
 <br> SOURCE OF THE IMAGE - VSDIAT PLATFORM
 <br> As you can see that there are many parts of a package namely _PADS, CORE AND DIE_.You can know about these terms by looking at the [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-)
