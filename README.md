@@ -74,18 +74,21 @@ To build a chip like this,we need to constantly keep in contact with the foundry
 
 So let us arrive at a very important question. **_HOW DO APPLICATION SOFTWARES WORK ?_**
 ![WhatsApp Image 2024-03-22 at 20 43 29_a2b39049](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/904cb523-c789-4cfd-9794-a938a5a01cbe)
-<br> As you can see in the image that there is a c type program and a layout. For apps to work  we in the same way need to convert the c-type program to the kind of layout shown. Let us see how........
+<br> As you can see in the image that there is a c type program and a layout. For apps to work,  we in the same way need to convert the c-type program to the kind of layout shown. Let us see how........
 <br> ![WhatsApp Image 2024-03-22 at 20 43 45_12738892](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fa35563f-f055-45cc-a674-84bde10faed2)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
-<br> These application softwares enter into a box called the _SYSTEM SOFTWARE_, which converts these applications to _BINARY FORMAT_. 
-> J
-
-
-
-
-
-
-
+<br> These application softwares enter into a box called the _SYSTEM SOFTWARE_, which converts these applications to _BINARY FORMAT_. This system software has many components namely 
+<br> OPERATING SYSTEM
+<br> COMPILER
+<br> ASSEMBLER
+<br> First is the job of the OS, whose regular jobs are to handle:-
+<br> IO OPERATIONS
+<br> ALLOCATION OF MEMORY
+<br> LOW LEVEL SYSTEM FUNCTION
+<br> The main job apart from the regular jobs of the OS is to convert the app to its respective assembly language program and finally to binary language program, so it can be understood by the hardware. The output of the OS are nothing but small instruction in c, c++ or java format.
+<br> These are then taken by the compiler and converted to respective instructions. The syntax of these instructions depend upon the type of hardware.
+<br> Example- If, the type of hardware is RISC V, then the instructions will also be RISC V instruction set architecture.
+(start from page 7)
 
 
 
