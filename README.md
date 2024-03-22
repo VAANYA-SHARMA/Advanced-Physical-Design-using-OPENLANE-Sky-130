@@ -70,10 +70,15 @@ source of the image- VSD-IAT PLATFORM
 <br> ![WhatsApp Image 2024-03-22 at 20 43 28_33aa067e](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/066722b0-f1ff-40d9-975d-ad5f57ff85e1)
 <br> SOURCE OF THE IMAGE -VSDIAT PLATFORM
 <br> You can know about these terms by going to [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-).
-To build a chip like this,we need to constantly keep in contact with the foundry using some interface. This interface mighrt be a file that the foundry provides us with
+To build a chip like this,we need to constantly keep in contact with the foundry using some interface. This interface might be a file that the foundry provides us with
 
-
-
+So let us arrive at a very important question. **_HOW DO APPLICATION SOFTWARES WORK ?_**
+![WhatsApp Image 2024-03-22 at 20 43 29_a2b39049](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/904cb523-c789-4cfd-9794-a938a5a01cbe)
+<br> As you can see in the image that there is a c type program and a layout. For apps to work  we in the same way need to convert the c-type program to the kind of layout shown. Let us see how........
+<br> ![WhatsApp Image 2024-03-22 at 20 43 45_12738892](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fa35563f-f055-45cc-a674-84bde10faed2)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> These application softwares enter into a box called the _SYSTEM SOFTWARE_, which converts these applications to _BINARY FORMAT_. 
+> J
 
 
 
