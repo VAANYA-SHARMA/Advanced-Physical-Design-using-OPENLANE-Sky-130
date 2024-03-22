@@ -36,7 +36,7 @@ Day 4 - Pre-layout timing analysis and importance of good clock tree
 
 ## Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### <br> How to talk to computers
-<br> Before starting with the concepts, here are some basic termonologies that will help you understand the after written things in a way more better manner:-
+<br> Before starting with the concepts, here are some basic termonologies that will help you understand the after written things the better way:-
 <br> 1.**PACKAGE:-** ***The case which has the chip and is connected to the circuit board. It is kind of a housing in which the chip is placed.***
 <br> 2.**WIRE BONDS:-** ***Through which the chip is connected to the package and the outside signals are received by the chip.***
 <br> 3.**Pads:-** ***Through which we can send in the signals to the chip or recive the signals from the chip.***
