@@ -9,9 +9,9 @@ This is a workshop which is about ASIC design using OPEN source tools.
 
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 <br> [How to talk to computers](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-how-to-talk-to-computers)
-<br> SoC design and OpenLANE
-<br> Starting RISC-V SoC Reference design
-<br> Get familiar to open-source EDA tools
+<br> [SoC design and OpenLANE]()
+<br> [Starting RISC-V SoC Reference design]()
+<br> [Get familiar to open-source EDA tools]()
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> Chip Floor planning considerations
@@ -55,9 +55,16 @@ For designing such a circuit, we would first need to represnt it using a block d
 <br> ![WhatsApp Image 2024-03-22 at 20 42 53_c0279c2d](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e4aa7533-886a-483b-b1ec-ad111819a3db)
 source of the image- VSD-IAT PLATFORM 
 <br> So, now in the same manner of block diagram based representation; let us go inside the package.......................
-<br> ![WhatsApp Image 2024-03-22 at 20 43 09_46be60ff](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/cae4a683-eabd-421e-a0bd-f1d08eecb9fe)
+<br> ![WhatsApp Image 2024-03-22 at 20 43 09_46be60ff](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/cae4a683-eabd-421e-a0bd-f1d08eecb9fe) 
+<br> SOURCE OF THE IMAGE - VSDIAT PLATFORM
 <br> So as you saw that inside the package(the white outline) is kept the chip. And what are those white thread like structures ?? You must be wondering. These are the WIRE BONDS. You can know what is there function at [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-)
-
+<br> The package shown above is a QFN-48 whose size is 7mm by 7mm, and these obviously vary in size and model.
+<br> So what if we try to know this package in amore detailed manner. Let us see the insides of a package :-
+<br> ![WhatsApp Image 2024-03-22 at 20 43 20_67d9d238](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/4aafde57-5a33-4864-a7fb-0f7b566c83fa)
+<br> SOURCE OF THE IMAGE - VSDIAT PLATFORM
+<br> As you can see that there are many parts of a package namely _PADS, CORE AND DIE_.You can know about these terms by looking at the [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-)
+<br> Now you know what is a core, lets get deep into it and know what kind of logic sits in the core. So if we take an example of a RISC V processor, let us know what sits in its core.
+<br> ![WhatsApp Image 2024-03-22 at 20 43 26_d5f743fc](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/74dc13bc-7109-43fe-b9c3-f6d461e96ca9)\
 
 
 
