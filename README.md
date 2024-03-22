@@ -48,12 +48,12 @@ Day 4 - Pre-layout timing analysis and importance of good clock tree
 
 <br> You must have seen a circuit board like an arduino. 
 <br> ![WhatsApp Image 2024-03-22 at 20 42 40_546c53fa](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/77287e70-be46-4858-9855-655b4036fe4d)
-<br> source of the image- VSD-IAT PLATORM
+source of the image- VSD-IAT PLATORM
 <br> The _highlighted_ part of the circuit board is the chip or preferably the **_package_**.
 For designing such a circuit, we would first need to represnt it using a block diagram.
 <br> Like this :-
 <br> ![WhatsApp Image 2024-03-22 at 20 42 53_c0279c2d](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e4aa7533-886a-483b-b1ec-ad111819a3db)
-
+source of the image- VSD-IAT PLATFORM 
 
 
 
