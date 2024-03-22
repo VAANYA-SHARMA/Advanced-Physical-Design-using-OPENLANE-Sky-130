@@ -8,7 +8,7 @@ This is a workshop which is about ASIC design using OPEN source tools.
 ## Workshop Day wise Content 
 
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
-<br> How to talk to computers
+### <br> How to talk to computers
 <br> SoC design and OpenLANE
 <br> Starting RISC-V SoC Reference design
 <br> Get familiar to open-source EDA tools
