@@ -145,24 +145,43 @@ WHAT IS A PDK ??
 <br> ~ It contains alot of important information like :- 
 <br> } Process Design Rules
 <br> } Device Models
+<br> } Digigtal Standard Cell Libraries
+<br> } I/O Libraries
+
+<br> For open source PDK, there is collabration between Google and SkyWater Technology Foundry to provide a 100% open source PDK. the pdk is named as 130 nm Production PDK.
+<br> Now that we have all the essential components for ASIC Design.
+
+<br> ASIC DESIGN FLOW
+<br> It is a piece of software.
+<br> Its main objective is to take ASIC design from Resistor-Transistor Level to GDS-II
+format, which is used for final layout. 
 
 
 
+![WhatsApp Image 2024-03-23 at 21 40 52_6f37343a](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/43d0e814-1b69-4a6b-bd37-493cc6b5973b)
+<br> SOURCE OF IMAGE- VSDDIAT PLATFORM.
+<br> The above is the image of the simplified ASIC Design flow. 
+<br> First major step of ASIC Design Flow is **_SYNTHESIS_**. In this RTL is converted to a circuit out of components from the Standard Cell Library (SCL). The Circuit is described in HDL and usually reffered as Gate Level Netlist. 
 
+The next step is **_Floor and Power Planning_**. Floor Planning has different meaning depending whether we wan to implement the whole chip or just the samll elements known as **MACROS** about which you can know in the [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-).
 
+If we try to know the difference , it would be like:-
+ <br> CHIP FLOOR PLANNING
+ <br> Partition the chip **die** [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-) between different system building blocks and place the I/O pads.
+ <br> MACRO FLOOR PLANNING
+ <br> In this Dimensions, Pin Locations and Rows are defined.
 
+POWER PLANNING- To provide power to the every macros and standard cells present in the design.
 
+The next step is **_PLACEMENT_**.
+ <br> For MACROs, we'll place gate level netlist cells on the floor plan rows. Obviously these cells must be placed very close to each other to reduce interconnect delay. 
+  <br> It is done in 2 steps:- 
+   <br> GLOBAL:- Tries to find optimal position for mor cells, Such positions are not necessarily leagal. so cells might overlap.
+    <br> DETAILED:- In this the positions recieved from the global step are minimally altered to be legal.
 
+ <br> The next step is **_CLOCK TREE SYNTHESIS_**. The CTS is used to create network namely the **CLOCK DISTRIBUTION NETWORK** WHICH GIVES THE CLOCK TO ALL SEQUENTIAL ELEMENTS.
+ <br> The next step is **_ROUTING_**. SIGNAL ROUTING. Given the placement and fixed metal layers, is required to know the pattern of horizontal and vertical wires to implement the nets. It is done on routing grids for least DRC erreors.
 
-
-
-
-
-
-
-
-
-
-
-
-
+ <br> The last step is **_SIGN-OFF_**. Basically, it is the step in which verification are done.
+ <br> Like:- _PHYSICAL VERIFICATION_ ~DESIGN CHECKING AND LAYOUT VERSUS SCHEMATIC.
+ _TIMING VERIFICATION_~ STATIC TIMING ANALYSIS.
