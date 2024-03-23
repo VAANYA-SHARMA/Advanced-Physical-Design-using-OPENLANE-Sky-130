@@ -113,8 +113,9 @@ Now there is another interface known as the *Hardware Description Language*.
 <br> Then the physical design implementation of the netlist is done. 
 (image below as a representation of the above written process)
 ![WhatsApp Image 2024-03-23 at 07 45 11_57b9fe52](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9db018ff-2777-4777-84d4-284a3f3f9bcd)
-<br> SOURCE OF THE IMAGE-VSDIAT PLATFORM 
+<br> SOURCE OF THE IMAGE-VSDIAT PLATFORM
 
+### <br> How to talk to computers
 
 
 
