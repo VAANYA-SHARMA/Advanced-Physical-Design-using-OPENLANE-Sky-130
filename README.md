@@ -116,27 +116,35 @@ Now there is another interface known as the *Hardware Description Language*.
 <br> SOURCE OF THE IMAGE-VSDIAT PLATFORM
 
 ### <br> SOC DESIGN AND OPENLANE
+<br> SOC DESIGN USING OPENLANE
+<br> DIGITAL APPLICATION-SPECIFIC INTEGRATED CIRCUIT (ASIC) DESIGN.
+<br> For designing an ASIC design, there are many componenets tht must be presesnt:-
+<br>~ RTL IPs
+<br>~ EDA TOOLS
+<br>~ PDK DATA
+
+<br>"For designing 100% open source digital ASIC Design ......" by this statement it is meant that the  RTL, EDA, PDK, all must be opensource. 
+
+<br>On the internet, there are many open source RTL Designs like:-
+                                                 <br>  librecores.org
+                                               <br>    github.com
+                                                                <br>  et cetera
+
+
+<br>On the internet, there are many open source EDA Tools like:-
+                                                 <br>  QFlow
+                                                 <br>   OpenLANE
+                                                         <br>  et cetera
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+WHAT IS A PDK ??
+<br> ~ PDK is the short form for Process design Kit.
+<br> ~ It is the interface between the FAB (Semiconductor Fabrication Plant) and the designers 
+<br> ~ It is a collection of files used to model a fabrication process for the EDA Tools used to design an IC (Integrated Circuit or we can call it a Chip). 
+<br> ~ It contains alot of important information like :- 
+<br> } Process Design Rules
+<br> } Device Models
 
 
 
