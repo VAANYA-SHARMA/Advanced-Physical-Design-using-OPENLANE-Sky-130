@@ -66,7 +66,7 @@ source of the image- VSD-IAT PLATFORM
 <br> Now you know what is a core, lets get deep into it and know what kind of logic sits in the core. So if we take an example of a RISC V processor, let us know what sits in its core.
 <br> ![WhatsApp Image 2024-03-22 at 20 43 26_d5f743fc](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/74dc13bc-7109-43fe-b9c3-f6d461e96ca9)\
 <br> SOURCE OF THE IMAGE -VSDIAT PLATFORM
-<br> It consists of many components such as SoC, SRAM and other couple of components. Other typical packages apart from RISC V usually have the same kind of components. Out of these components, some are defined as FOUNDRY IPs and MACROs.
+<br> It consists of many components such as SoC, SRAM and other couple of components. Other typical packages usually have the same kind of components. Out of these components, some are defined as FOUNDRY IPs and MACROs.
 <br> ![WhatsApp Image 2024-03-22 at 20 43 28_33aa067e](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/066722b0-f1ff-40d9-975d-ad5f57ff85e1)
 <br> SOURCE OF THE IMAGE -VSDIAT PLATFORM
 <br> You can know about these terms by going to [termonologies](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-before-starting-with-the-concepts-here-are-some-basic-termonologies-that-will-help-you-understand-the-after-written-things-the-better-way-).
