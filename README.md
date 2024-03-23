@@ -128,13 +128,13 @@ Now there is another interface known as the *Hardware Description Language*.
 <br>On the internet, there are many open source RTL Designs like:-
                                                  <br>  librecores.org
                                                <br>    github.com
-                                                                <br>  et cetera
+                                                                
 
 
 <br>On the internet, there are many open source EDA Tools like:-
                                                  <br>  QFlow
                                                  <br>   OpenLANE
-                                                         <br>  et cetera
+                                                         
 
 
 
