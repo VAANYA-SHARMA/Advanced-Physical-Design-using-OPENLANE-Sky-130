@@ -85,7 +85,7 @@ So let us arrive at a very important question. **_HOW DO APPLICATION SOFTWARES W
 <br> IO OPERATIONS
 <br> ALLOCATION OF MEMORY
 <br> LOW LEVEL SYSTEM FUNCTION
-<br> The main job apart from the regular jobs of the *OS* is to convert the app to its respective assembly language program and finally to binary language program, so it can be understood by the hardware. The output of the OS are nothing but small instruction in c, c++ or java format.
+<br> The main job apart from the regular jobs of the *OS* is to convert the app to its respective assembly language program and finally to binary language program, so it can be understood by the hardware. The output of the OS are nothing but small instructions in c, c++ or java format.
 <br> These are then taken by the *compiler* and converted to respective instructions. The syntax of these instructions depend upon the type of hardware.
 <br> Example- If, the type of hardware is RISC V, then the instructions will also be RISC V instruction set architecture.
 <br> Now next is the job of the *assembler*.It takes in the output of the compiler that is instructions and converts them to their respective *binary format*. This *binary language* is also known as the *MACHINE LANGUAGE*. 
@@ -96,11 +96,24 @@ LET US NOW SEE AN EXAMPLE OF AN APPLICATION TO UNDERSTAND THIS BETTER.
 > STOPWATCH
 ![WhatsApp Image 2024-03-22 at 20 43 46_b79e1e07](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d9d792fa-28df-45fa-825f-20d03f022821)
 <br> SOURCE OF THE IMAGE-VSDIAT PLATFORM.
-<br> NOW, IS THERE SOMETHING THAT WE COULD KNOW UPON EXPANDING THE PROCESS ??
+
+
+<br> NOW IS THERE SOMETHING THAT WE CAN KNOW UPON EXPANDING THE PROCESS ??
 <br> Yes!!
-<br> 
+<br> The instructions that we got as an output of the compiler act as an ABSTRACT interface between C- program and the hardware. This interface is known as the *Instruction set Architecture* or *The architecture of the computer*. It basically represents your hardware.
+![WhatsApp Image 2024-03-22 at 20 43 49_9417651e](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fdfe44b5-ea5c-445a-b6e7-6b502be8cd5d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
+Now there is another interface known as the *Hardware Description Language*.  
+![WhatsApp Image 2024-03-22 at 20 44 06_6de4e362](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c14df629-2b9e-4d78-8f23-6654e137a910)
+<br> SOURCE OF THE IMAGE-VSDIAT PLATFORM 
+<br> As you can see in the image that there are some instructions and the output of the assembler. The instruction is to add x6, x10, x6 and the output of the asssembler has to be in binary so that the hardware or we can say the machine can actually understand what is to be done. So its output will be somewhat like 000000000110010110000001100110011.
+<br> NOW! You would require a *RTL Description Language* that would understand and perform the given specifications. It is known as the implementation of specifications.
+<br> After this, it is getting synthesized into netlist. This basically is in form of ANDs, NOTs, FLIP FLOPS and so on.....
+<br> Then the physical design implementation of the netlist is done. 
+(image below as a representation of the above written process)
+![WhatsApp Image 2024-03-23 at 07 45 11_57b9fe52](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9db018ff-2777-4777-84d4-284a3f3f9bcd)
+<br> SOURCE OF THE IMAGE-VSDIAT PLATFORM 
 
 
 
