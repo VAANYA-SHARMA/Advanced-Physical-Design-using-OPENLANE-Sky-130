@@ -85,17 +85,20 @@ So let us arrive at a very important question. **_HOW DO APPLICATION SOFTWARES W
 <br> IO OPERATIONS
 <br> ALLOCATION OF MEMORY
 <br> LOW LEVEL SYSTEM FUNCTION
-<br> The main job apart from the regular jobs of the OS is to convert the app to its respective assembly language program and finally to binary language program, so it can be understood by the hardware. The output of the OS are nothing but small instruction in c, c++ or java format.
-<br> These are then taken by the compiler and converted to respective instructions. The syntax of these instructions depend upon the type of hardware.
+<br> The main job apart from the regular jobs of the *OS* is to convert the app to its respective assembly language program and finally to binary language program, so it can be understood by the hardware. The output of the OS are nothing but small instruction in c, c++ or java format.
+<br> These are then taken by the *compiler* and converted to respective instructions. The syntax of these instructions depend upon the type of hardware.
 <br> Example- If, the type of hardware is RISC V, then the instructions will also be RISC V instruction set architecture.
-(start from page 7)
+<br> Now next is the job of the *assembler*.It takes in the output of the compiler that is instructions and converts them to their respective *binary format*. This *binary language* is also known as the *MACHINE LANGUAGE*. 
+<br>  *MACHINE LANGUAGE*- Its name is very much self-explanatory. It is a language that is understood by machines.
+<br> Then the output of this assembler is fed to the hardware, and the required function is performed.
 
-
-
-
-
-
-
+LET US NOW SEE AN EXAMPLE OF AN APPLICATION TO UNDERSTAND THIS BETTER. 
+> STOPWATCH
+![WhatsApp Image 2024-03-22 at 20 43 46_b79e1e07](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d9d792fa-28df-45fa-825f-20d03f022821)
+<br> SOURCE OF THE IMAGE-VSDIAT PLATFORM.
+<br> NOW, IS THERE SOMETHING THAT WE COULD KNOW UPON EXPANDING THE PROCESS ??
+<br> Yes!!
+<br> 
 
 
 
