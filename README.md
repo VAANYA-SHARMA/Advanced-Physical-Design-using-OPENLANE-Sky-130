@@ -9,7 +9,7 @@ This is a workshop which is about ASIC design using OPEN source tools.
 
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 <br> [How to talk to computers](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-how-to-talk-to-computers)
-<br> [SoC design and OpenLANE](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/edit/main/README.md#-soc-design-and-openlane)
+<br> [SoC design and OpenLANE](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-soc-design-and-openlane)
 <br> [Starting RISC-V SoC Reference design]()
 <br> [Get familiar to open-source EDA tools]()
 
