@@ -213,3 +213,8 @@ It can be used to harden(to generate GDS II orthe final layout)
 
 
 ### Get familiar to open-source EDA tools
+
+OpenLANE hasthe following main folders and their divisions.
+![Screenshot 2024-03-24 210436](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f2818996-f7cc-47ae-bf7b-8303b9a0cf3e)
+
+![Screenshot 2024-03-24 210524](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d91ae271-d273-4232-b03d-6509423eb21a)
