@@ -10,7 +10,6 @@ This is a workshop which is about ASIC design using OPEN source tools.
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 <br> [How to talk to computers](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-how-to-talk-to-computers)
 <br> [SoC design and OpenLANE](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-soc-design-and-openlane)
-<br> [Starting RISC-V SoC Reference design]()
 <br> [Get familiar to open-source EDA tools]()
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
@@ -185,3 +184,32 @@ The next step is **_PLACEMENT_**.
  <br> The last step is **_SIGN-OFF_**. Basically, it is the step in which verification are done.
  <br> Like:- _PHYSICAL VERIFICATION_ -DESIGN CHECKING AND LAYOUT VERSUS SCHEMATIC.
  _TIMING VERIFICATION_- STATIC TIMING ANALYSIS.
+
+##### INTRODUCTION TO OPENLANE striVe
+
+OPENLANE
+<br> It started as an opensource flow for a true open source tape out experiments.
+
+<br> STRIVE SOC FAMILY 
+<br> It has many open source SoCs with different features, the list is as follows:-
+<br> striVe- SKY130 SCL+ SYNTHESIZED 1KB SRAM.
+<br> striVe 2- SKY130 SCL + 1KB OPENRAM BLOCK
+<br> striVe 2a- striVe 2 WITH A SINGLE CHIP CORE MODULE
+<br> striVe 3- OSUSCL + SYNTHESIZED 1KB SRAM
+<br> striVe 5- SKY130 SCL +  SYNTHESIZED 1KB SRAM.
+ <br> striVe 6- striVe 2 WITH DFT.
+
+ MAIN GOAL OF OPEN LANE ASIC FLOW- to produce a ***clean*** GDS II with no human in the loop or human intervention.
+ <br> Here the word CLEAN means :-
+<br> No LVS violations 
+<br> No DRC violations 
+<br> Timing violations (work in progress)
+
+
+It can be used to harden(to generate GDS II orthe final layout) 
+<br> It has two modes of operation :-
+<br> Autonomous- We configure the flow, push the button. Wait for some time as per the design size. And the GDS II layout is generated.
+<br> Interactive- As per the interactive we can run commands and steps one by one. So that we can look at the intermediate result while completing the process. This can be helpful for experimentation.
+
+
+### Get familiar to open-source EDA tools
