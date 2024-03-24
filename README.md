@@ -10,7 +10,7 @@ This is a workshop which is about ASIC design using OPEN source tools.
 Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 <br> [How to talk to computers](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-how-to-talk-to-computers)
 <br> [SoC design and OpenLANE](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-soc-design-and-openlane)
-<br> [Get familiar to open-source EDA tools]()
+<br> [Get familiar to open-source EDA tools](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#get-familiar-to-open-source-eda-tools)
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> Chip Floor planning considerations
