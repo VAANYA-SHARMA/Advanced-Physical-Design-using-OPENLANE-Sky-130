@@ -243,7 +243,7 @@ The result after synthesisis:-
 
 THE DFF COUNT IS 1613 AND TOTAL NO. OF CELLS IS 14876.
 THE D FLIP-FLOP RATIO = 1613/14876= 0.108429685
-![Screenshot 2024-03-24 232503](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3c32008d-462d-4986-b5a0-d6b7e52e6404)
+<BR>![Screenshot 2024-03-24 232503](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3c32008d-462d-4986-b5a0-d6b7e52e6404)
 
 
 
