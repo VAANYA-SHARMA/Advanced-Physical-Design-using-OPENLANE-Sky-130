@@ -214,11 +214,28 @@ It can be used to harden(to generate GDS II orthe final layout)
 
 ### Get familiar to open-source EDA tools
 
-OpenLANE hasthe following main folders and their divisions.
+OpenLANE has the following main folders and their divisions.
 ![Screenshot 2024-03-24 210436](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f2818996-f7cc-47ae-bf7b-8303b9a0cf3e)
 
 ![Screenshot 2024-03-24 210524](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d91ae271-d273-4232-b03d-6509423eb21a)
 
 ![Screenshot 2024-03-24 211520](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/df29ddcb-6d13-47ea-8ff3-87cb3c05e8cb)
 
-![Screenshot 2024-03-24 211753](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e07ca1f9-423b-4e0f-a721-7a67a5fe4dd1)
+DESIGN PREPARATION
+<br>To invoke openLANE, use the *docker* command.Then put the interactive command (./flow.tcl-interactive). % package require openlane 0.9 runs version 0.9 of OpenLANE.
+<br>![Screenshot 2024-03-24 211753](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/84e3bcd1-c593-409e-9840-dd93528898eb)
+
+OpenLANE has many design types and the one we'll be using is picorv32a. the command is ***prep -design picorv32a***.  
+![Screenshot 2024-03-24 213929](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/025ed681-841d-4586-9a52-16112d526cdc)
+
+![Screenshot 2024-03-24 225926](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d3c61443-4759-4e93-b1b2-362e8686415c)
+![Screenshot 2024-03-24 215416](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/84d00283-6c4f-46b5-887f-88a2be35b561)
+
+![Screenshot 2024-03-24 222542](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f30b796b-288f-435d-9f74-e5569d9ccde2)
+
+THE NEXT STEP IS TO SYNTHESIZE. YOU CAN DO THIS THROUGH THE COMMAND run_synthesis. It might take a couple of minutes foritto complethe process.
+![Screenshot 2024-03-24 224834](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/7252045a-20bd-4e70-9a33-291a9a9e37ad)
+
+The result after synthesisis:-
+![Screenshot 2024-03-24 225040](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5485b5fd-c1d3-4b0f-a356-c0417ca8009a)
+![Screenshot 2024-03-24 224956](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5c76c724-9481-4043-bdbf-1af01619aaba)
