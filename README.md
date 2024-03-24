@@ -233,9 +233,22 @@ OpenLANE has many design types and the one we'll be using is picorv32a. the comm
 
 ![Screenshot 2024-03-24 222542](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f30b796b-288f-435d-9f74-e5569d9ccde2)
 
-THE NEXT STEP IS TO SYNTHESIZE. YOU CAN DO THIS THROUGH THE COMMAND run_synthesis. It might take a couple of minutes foritto complethe process.
+THE NEXT STEP IS TO SYNTHESIZE. YOU CAN DO THIS THROUGH THE COMMAND run_synthesis. It might take a couple of minutes for it to complethe process.
 ![Screenshot 2024-03-24 224834](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/7252045a-20bd-4e70-9a33-291a9a9e37ad)
 
 The result after synthesisis:-
 ![Screenshot 2024-03-24 225040](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5485b5fd-c1d3-4b0f-a356-c0417ca8009a)
 ![Screenshot 2024-03-24 224956](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5c76c724-9481-4043-bdbf-1af01619aaba)
+
+
+THE DFF COUNT IS 1613 AND TOTAL NO. OF CELLS IS 14876.
+THE D FLIP-FLOP RATIO = 1613/14876= 0.108429685
+![Screenshot 2024-03-24 232503](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3c32008d-462d-4986-b5a0-d6b7e52e6404)
+
+
+
+
+
+
+
+
