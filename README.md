@@ -249,8 +249,21 @@ After synthesis you can check the reports by going to the shown location below..
 <br> ![Screenshot 2024-03-24 233958](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/76a008bd-ab07-47e3-abd6-5d11024f8344)
 
 
+## Day2 – Good floorplan vs bad floorplan and introduction to library cells
+### <br> Chip Floor planning considerations
+First we will be knowing how to know the length and width of the chip die and core.
+<br> ![Screenshot 2024-03-25 160420](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/224639e6-26a2-47be-8e1d-aab18f3f4c5b)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<BR> This, in the physical design overview flow was first step. So let us look how to get the values oh W and H.
+<br> So let us begin with a basic netlist. With two filpflops (lounge and capture) and a basic 
+combinational logic between them. So it is like two flops and and two gates with connection as shown.
+<br> ![Screenshot 2024-03-25 163817](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0734e670-bf64-4370-b59f-9b975c9162df)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
-
+So for the netlist let us have proper dimensions. The would look something like below......
+<br> 
+![Screenshot 2024-03-25 170426](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/439cb666-c8f5-4ed4-8216-4796cbdd617f)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> basically we depend on the dimensions of the gates and the flops. So in this we donot care about the dimensions of wires but the gates and flops. Obviously wires will be in use in later operations but not when we want to know the dimensions of the chip's die and core.
 
 
