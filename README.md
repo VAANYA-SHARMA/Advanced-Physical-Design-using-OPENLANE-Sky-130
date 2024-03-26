@@ -266,4 +266,4 @@ So for the netlist let us have proper dimensions. The would look something like 
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 <br> basically we depend on the dimensions of the gates and the flops. So in this we donot care about the dimensions of wires but the gates and flops. Obviously wires will be in use in later operations but not when we want to know the dimensions of the chip's die and core.
 
-
+So let us try giving these standard cells rough dimensions. If we consider there lengtha nd width to be 1 unit by 1 unit. Area is 1 sq. unit.
