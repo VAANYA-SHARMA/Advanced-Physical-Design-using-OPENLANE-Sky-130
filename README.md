@@ -1,6 +1,7 @@
+
 # Advanced-Physical-Design-using-OPENLANE-Sky-130
-This is a workshop which is about ASIC design using OPEN source tools.
-<br>
+<br>This is a workshop which is about ASIC design using OPEN source tools.
+
 ## Advanced Physical Design- OpenLANE\Sky130
 ![Screenshot 2024-03-19 195759](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9e3eb63d-d8ec-4051-96e3-3a3a06a7a540)
 <br>
@@ -251,6 +252,7 @@ After synthesis you can check the reports by going to the shown location below..
 
 ## Day2 – Good floorplan vs bad floorplan and introduction to library cells
 ### <br> Chip Floor planning considerations
+##### DEFINING WIDTH AND HEIGHT OF CORE AND DIE
 First we will be knowing how to know the length and width of the chip die and core.
 <br> ![Screenshot 2024-03-25 160420](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/224639e6-26a2-47be-8e1d-aab18f3f4c5b)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
@@ -266,4 +268,18 @@ So for the netlist let us have proper dimensions. The would look something like 
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 <br> basically we depend on the dimensions of the gates and the flops. So in this we donot care about the dimensions of wires but the gates and flops. Obviously wires will be in use in later operations but not when we want to know the dimensions of the chip's die and core.
 
-So let us try giving these standard cells rough dimensions. If we consider there lengtha nd width to be 1 unit by 1 unit. Area is 1 sq. unit.
+So let us try giving these standard cells rough dimensions. If we consider their to be length and width to be 1 unit by 1 unit. Area is 1 sq. unit. And let us consider the same dimensions for the flipflops as well. So now let us join four of the components in single plate without the wires. now if we try to calculate the area, it would by 2 by 2 unit and the area will be 4 sq. unit.
+<br> ![Screenshot 2024-03-26 184740](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ade1e8bd-55f0-46c7-8784-9ae4d5b0d4db)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+So now we know the rough dimensions of the netlist or we can say that we have found the minimum area that will be covered by the netlist when placed anywhere.
+<br> So now let us know the core and the die section of the chip. Here is the image of a silicon wafer and the location of the chip's die and core.
+<br> ![Screenshot 2024-03-26 185838](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8623a25e-5c6d-4556-95f6-d0c7f9a94742)
+
+Now what if we place our logic inside the chip. We have to place it in the core of our chip. 
+<br ![Screenshot 2024-03-26 190349](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/869e3935-3d30-400f-9cc8-ea4efad8500d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> As your cells cover all the area of the chip, it is known as 100 % utilization. Here comes a term from 100 % utilization that is utilization factor. It is the factor that is equal to the AREA OCCUPIED BY THE NETLIST/TOTAL AREA OF CORE. So if we put in the dimensions here it would be = 4x1 sq. unit/2 unit x 2 unit= 4 sq. unit/ 4 sq. unit. So the utilization factor will 1. The utilization factor being 1 means that the core of the chip is fully occupied and if in any cas we have to add any more cells, it is not possible. If we look at it as a practical scenario, we donot opt for 100% utilization rather we opt for 50-60 % utilization. So the utilization factor should 0.5 or 0.6. 
+<br> Now there comes another term related to these dimensions which is aspect ratio. If we look at its definition it would be HEIGHT/WIDTH. 2 unit/2 unit = 1. If the aspect ratio is 1, it signifies that the chip is square in shape. If the aspect ratio is some other no. rather than 1, it signifies that it is rectangle in shape.
+
+-----------------------(procedure for defining width and height)-------------------------------
