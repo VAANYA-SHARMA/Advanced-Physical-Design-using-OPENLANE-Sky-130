@@ -285,4 +285,25 @@ Now what if we place our logic inside the chip. We have to place it in the core 
 -----------------[procedure for defining width and height](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#defining-width-and-height-of-core-and-die)---------------
 
 ##### DEFINE THE LOCATION OF PREPLACED CELLS.
-<br> So the next step is to define the location of preplaced cells. So what exactly are preplaced cells ?? To understand, let us take an example of a combinational logic. The assumption about this logic is that it does some amount of function. It does such a big task that its output is a huge circuit. 
+<br> So the next step is to define the location of preplaced cells. So what exactly are preplaced cells ?? To understand, let us take an example of a combinational logic. The assumption about this logic is that it does some amount of function. It does such a big task that its output is a huge circuit. The output circuit is so huge that it almost consists of 50k-100k gates. The circuit is :-
+<br> ![Screenshot 2024-03-26 221026](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0d0ee0be-7b07-4cef-ba7c-4c4da109da90)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> There is another way in which we could implement this circuit. That is by dividing it into two parts. If the circuit is of 100k gates, we could divide it into 50k and 50k gate blocks. Its division could be something like this.
+<br> ![Screenshot 2024-03-26 221752](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/37a502e6-e99a-44f0-ae41-4c0d5af4a3bc)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> The block 1 and 2 will be implemented separately. After making two blocks (or parts) we need to extend the IO pins. 
+<br> ![Screenshot 2024-03-26 222652](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f3c98b5a-05c7-45de-a7fa-890d0e8bb88e)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> Next step, would be black boxing the blocks. Which would be like this :-
+<br> ![Screenshot 2024-03-26 222850](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c77f60b8-1b2a-49b5-aa3b-9291b7a90617)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+To implement these two separately, we need separate them like below.
+<br>![Screenshot 2024-03-26 223330](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9f68e3ed-41ee-456a-ad65-133868b313c8)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> These type of blocks can given separately to different users and implemented separately but only once. They are being placed only once in a chip. That is why they are known as preplaced cells as they must be placed before routing. So these basically are macros or IPs which are implemented once but used several times.
+<br> We need to place them in such a manner that their output pins are on one side and input pins on the other side.  And once they are placed their location cannot be moved and they are not touched again.
+<br> ![Screenshot 2024-03-26 225552](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/206d06a9-2376-4cf0-9284-2905f8106c02)
+<br> And this was how we define the location of preplaced cells. So now next step is to surround them using decoupling capacitors.
+##### SURROUND PREPLACED CELLS WITH DECOUPLING CAPACITORS.
+
