@@ -283,3 +283,6 @@ Now what if we place our logic inside the chip. We have to place it in the core 
 <br> Now there comes another term related to these dimensions which is aspect ratio. If we look at its definition it would be HEIGHT/WIDTH. 2 unit/2 unit = 1. If the aspect ratio is 1, it signifies that the chip is square in shape. If the aspect ratio is some other no. rather than 1, it signifies that it is rectangle in shape.
 
 -----------------------[procedure for defining width and height](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#defining-width-and-height-of-core-and-die)-------------------------------
+
+##### DEFINE THE LOCATION OF PREPLACED CELLS.
+<br> So the next step is to define the location of preplaced cells. So what exactly are preplaced cells ?? To understand, let us take an example of a combinational logic. The assumption about this logic is that it does some amount of function. It does such a big task that its output is a huge circuit. 
