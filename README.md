@@ -308,7 +308,6 @@ To implement these two separately, we need separate them like below.
 <br> And this was how we define the location of preplaced cells. So now next step is to surround them using decoupling capacitors.
 ##### SURROUND PREPLACED CELLS WITH DECOUPLING CAPACITORS.
 
-continue L3 
 
 
 
