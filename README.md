@@ -301,9 +301,15 @@ Now what if we place our logic inside the chip. We have to place it in the core 
 To implement these two separately, we need separate them like below.
 <br>![Screenshot 2024-03-26 223330](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9f68e3ed-41ee-456a-ad65-133868b313c8)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
-<br> These type of blocks can given separately to different users and implemented separately but only once. They are being placed only once in a chip. That is why they are known as preplaced cells as they must be placed before routing. So these basically are macros or IPs which are implemented once but used several times.
+<br> These type of blocks can be given separately to different users and implemented separately but only once. They are being placed only once in a chip. That is why they are known as preplaced cells as they must be placed before routing. So these basically are macros or IPs which are implemented once but used several times.
 <br> We need to place them in such a manner that their output pins are on one side and input pins on the other side.  And once they are placed their location cannot be moved and they are not touched again.
 <br> ![Screenshot 2024-03-26 225552](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/206d06a9-2376-4cf0-9284-2905f8106c02)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 <br> And this was how we define the location of preplaced cells. So now next step is to surround them using decoupling capacitors.
 ##### SURROUND PREPLACED CELLS WITH DECOUPLING CAPACITORS.
+
+continue L3 
+
+
+
 
