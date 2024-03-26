@@ -275,6 +275,7 @@ So let us try giving these standard cells rough dimensions. If we consider their
 So now we know the rough dimensions of the netlist or we can say that we have found the minimum area that will be covered by the netlist when placed anywhere.
 <br> So now let us know the core and the die section of the chip. Here is the image of a silicon wafer and the location of the chip's die and core.
 <br> ![Screenshot 2024-03-26 185838](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8623a25e-5c6d-4556-95f6-d0c7f9a94742)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 Now what if we place our logic inside the chip. We have to place it in the core of our chip. 
 <br ![Screenshot 2024-03-26 190349](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/869e3935-3d30-400f-9cc8-ea4efad8500d)
