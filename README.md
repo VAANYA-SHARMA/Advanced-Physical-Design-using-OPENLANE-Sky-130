@@ -14,7 +14,7 @@ Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 <br> [Get familiar to open-source EDA tools](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#get-familiar-to-open-source-eda-tools)
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
-<br> Chip Floor planning considerations
+<br> [Chip Floor planning considerations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-chip-floor-planning-considerations)
 <br> Library Binding and Placement
 <br> Cell design and characterization flows
 <br> General timing characterization parameters
