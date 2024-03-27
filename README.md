@@ -319,21 +319,27 @@ To implement these two separately, we need separate them like below.
 <br> So if there is a problem, there must be a solution. And the solution to this problem is the use of DECOUPLING CAPACITORS. You can consider them as large capacitors completely filled with charge, the equivalent voltage across the capacitor is same as seen in the voltage supply.
 <br> And if we try to understand its exact meaning, it can be understood by its name. That is, it decouples the main circuit and provides the circuit with voltage supply. But how would it solve the problem ?? So if we see our main problem was the voltage drop. It mainly happened because of large physical gap between the supply and the main circuit. Placing our capacitor would reduce that gap.
 <br>![WhatsApp Image 2024-03-27 at 17 04 14_9c686eba](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/7a2105a9-7fc5-4806-af42-c76d96e3d13c)
-
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 ![Screenshot 2024-03-27 171055](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1a117df8-dc45-4679-939d-c539c78534c6)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
 
+##### POWER PLANNING
+<BR> Let us consider a problem. Refer to problem image of the previous step. In that we provided it with current using a capacitor. Now let us imagine that circuit as a black box which repeated on a chip multiple times.   
 
+![Screenshot 2024-03-27 172254](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f6b5c959-3356-4e7f-be62-20eccc7d31a6)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+![Screenshot 2024-03-27 172313](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/940aef2d-6846-4ae3-ad1c-d1e22732d400)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+So consider the above image. You can see that the particular macro is being repeated 4 times on the chip. Now if you see, there is a line drawn from the driver to the load. It is specifying that there is a signal being sent from the driver to the load. And our problem question is, we have to make sure that the line maintains the signal so that the load recieves the same shape of the signals.  
+<br> So first we will provide them all with power supply, something like below......
+<br> ![Screenshot 2024-03-27 173841](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/96bb022a-eeb5-45b3-aefd-51829f49c053)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
-
-
-
-
-
+Now for the line to retain the same signal i.e 0 to 1 it has to get necessary supply from the power as there is no decoupling capacitor over here to take care of the signal. It is the power supply which has to supply power to this line. Also it is not so feasible to put capacitors all over the circuit. Now if you notice, the power supply is far from the line, so there is always a chance of voltage drop.
 
 
 
