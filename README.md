@@ -339,7 +339,23 @@ So consider the above image. You can see that the particular macro is being repe
 <br> ![Screenshot 2024-03-27 173841](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/96bb022a-eeb5-45b3-aefd-51829f49c053)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-Now for the line to retain the same signal i.e 0 to 1 it has to get necessary supply from the power as there is no decoupling capacitor over here to take care of the signal. It is the power supply which has to supply power to this line. Also it is not so feasible to put capacitors all over the circuit. Now if you notice, the power supply is far from the line, so there is always a chance of voltage drop.
+Now for the line to retain the same signal i.e 0 to 1 it has to get necessary supply from the power as there is no decoupling capacitor over here to take care of the signal. It is the power supply which has to supply power to this line. Also it is not so feasible to put capacitors all over the circuit. Now if you notice, the power supply is far from the line, so there is always a chance of voltage drop. and vdd at the point near Rdd might be something different from the vdd on the line. Let us see what could be the vdd and the gnd on the line. 
+<br> We could assume that this is a 16 bit bus. Whenever there is a 1 that means that the capacitor is charged to vdd. If there is 0 it means that the capacitors is getting discharged to gnd. 
+<br> ![Screenshot 2024-03-27 204336](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/eda20f44-1531-438a-bc41-d28c0aa6e9e0)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+<br> As you could see in the image before this one that there was a inverter in the load that was connected to the line. So you can see in the image that the input value is 1110010111000110. So when it would be put by the inverter the output will be fully opposite of the input. It means that the capacitors that were charged to vdd will be discharged to ground and the ones that were discharged wil be charged.  
+<br> Now since all the discharging will happen at  the same time and we have a single ground line for all, there will be several taps at the ground line and this would create a bounce. Due to this bounce the things might get unpredictable and they might get into the undefined region about which we read earlier. 
+<br> About the charging if we say, that all the charging capacitors will ask for supply at the same time. Due to this there wil be a voltage droop. This is like one tap multiple buckets requiring water at the same time. And the voltage droop will be like shortage of water. 
+<br> Exactly what is the reason of this problem ?? 
+<br> The main reason is that there is only one power supply. If there would have been multiple sources, this problem wouldn't have occured.  
+<br> So let me show you how it should have been.      
+<br> ![Screenshot 2024-03-27 215637](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/960ae535-b195-4b33-898c-4fa412b0e077)
+
+
+
+
+
 
 
 
