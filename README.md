@@ -351,6 +351,41 @@ Now for the line to retain the same signal i.e 0 to 1 it has to get necessary su
 <br> The main reason is that there is only one power supply. If there would have been multiple sources, this problem wouldn't have occured.  
 <br> So let me show you how it should have been.      
 <br> ![Screenshot 2024-03-27 215637](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/960ae535-b195-4b33-898c-4fa412b0e077)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![Screenshot 2024-03-27 222759](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1e1309f1-cc4a-4a12-8415-10edabdc7cff)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+
+##### PIN PLACEMENT
+
+Before directly moving on to pin placement, let us before take an example.
+
+There are two sections of a circuitry. And also some preplaced cells are their in these two parts of the circuits. It has 4 input pins and 3 output pins till now. And the connections are as follows.
+
+![Screenshot 2024-03-27 225351](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/32694277-b215-45ab-aff0-919cac2f3e37)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now there are more 2 sections of a circuit, almost same to the ones seen earlier. Now we know 2 new input and 2 new output pins. And another preplaced cell, block c.
+
+![Screenshot 2024-03-27 231013](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/11b8fecc-2f1b-45ab-9d88-29c799c2c2b3)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+So let us now see the whole complete design.
+
+![Screenshot 2024-03-27 231154](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ea0e7253-603b-47f2-9e3c-e7a6ed273c98)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now let's try to modify this circuit a bit. Starting with the repitition of Clk1 and Clk2 input pins twice and we could form just 1 pin and join to both the points. And this connectivity information is defined using a language known as VHDL or Verilog language and is called as the netlist. 
+
+![Screenshot 2024-03-27 231748](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d5d1bc00-ab22-438d-a97a-d6557e8bd30f)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+So let us put this design in the chip we are trying to design. 
+
+
+
 
 
 
