@@ -1,5 +1,7 @@
 
 # Advanced-Physical-Design-using-OPENLANE-Sky-130
+Author : Vaanya Sharma 
+
 <br>This is a workshop which is about ASIC design using OPEN source tools.
 
 ## Advanced Physical Design- OpenLANE\Sky130
@@ -306,7 +308,28 @@ To implement these two separately, we need separate them like below.
 <br> ![Screenshot 2024-03-26 225552](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/206d06a9-2376-4cf0-9284-2905f8106c02)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 <br> And this was how we define the location of preplaced cells. So now next step is to surround them using decoupling capacitors.
+
+
 ##### SURROUND PREPLACED CELLS WITH DECOUPLING CAPACITORS.
+<br> Consider the following image.
+<br> ![Screenshot 2024-03-27 120246](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/78e7ae8d-0b0f-4689-ad0d-aef636e9d275)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> Let us consider the piece of circuit to be a part of block A, B or C. Whenever the logic switches, like from 0 to 1; it demands for switching current that is peak current. What actually happens is that there is some capacitance sitting near the gates and the transition of logic from 0 to 1 will make the capacitor require some current so that the capacitor can represent the logic 1. This current will be provided to the circuit by supply voltage. But if the logic is changing from 1 to 0, it is the responsibility of the vss to take that amount of charge from the circuit. This will make all the capacitances to get discharged and these discharged current should be handled very well by the ground line of the power supply.    
+<br> But in a practical scenario, when the voltage is supplied to the circuit there is a voltage drop. This because of inductance, resistance and capacitance peresent in the wire. The wires have physical dimensions and anything that has a physical dimension will surely have some inductance, resistance and capacitance.  This drop is reffered as VDD'. Also there is a issue in this. This is that we  need to make sure that this vdd falls in the noise margin region. If it is somewhere in the undefined region, it will be dangerous. That is the problem of having a large physical distance from the power supply and the main circuit.
+<br> So if there is a problem, there must be a solution. And the solution to this problem is the use of DECOUPLING CAPACITORS. You can consider them as large capacitors completely filled with charge, the equivalent voltage across the capacitor is same as seen in the voltage supply.
+<br> And if we try to understand its exact meaning, it can be understood by its name. That is, it decouples the main circuit and provides the circuit with voltage supply.
+<br>![WhatsApp Image 2024-03-27 at 17 04 14_9c686eba](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/7a2105a9-7fc5-4806-af42-c76d96e3d13c)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
