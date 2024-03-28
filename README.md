@@ -442,7 +442,7 @@ Now turn by turn we will seeing where there is a need of a repeater.
 ![Screenshot 2024-03-28 170814](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1e0b1c7c-65b5-41d3-abe2-27c0d5981142)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-<br> 
+<br> Here comes the turn of blue section of circuit. First if we see the distance between Din3 and FF1, it is feasible here for the signals to pass without any repeaters. The same is the case, with the distances between FF1 and gate 1, and gate 1 and gate 2.But the distance between gate 2 and FF2 is bit longer. So we need to place a buffer in this area. 
 
 
 
