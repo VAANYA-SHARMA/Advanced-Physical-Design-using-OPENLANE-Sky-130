@@ -20,8 +20,8 @@ Day 2 - Understand importance of good floorplan vs bad floorplan and introductio
 <br> [Cell design and characterization flows](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#-cell-design-and-characterization-flows)
 
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
-<br> Labs for CMOS inverter ngspice simulations
-<br> Inception of Layout – CMOS fabrication process
+<br> [Labs for CMOS inverter ngspice simulations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#--labs-for-cmos-inverter-ngspice-simulations)
+<br> [Inception of Layout – CMOS fabrication process](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/edit/main/README.md#-inception-of-layout--cmos-fabrication-process)
 <br> Sky130 Tech File Labs
 
 Day 4 - Pre-layout timing analysis and importance of good clock tree
@@ -529,7 +529,29 @@ labs sk1
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 2. Creating active region for transistors.
-<br>  These are the regions where actually you see the pmos and nmos transistors. So basically we will be creating some bucket kind of in the substrate, where we will create pmos and nmos. First we will create some isolation between the pockets so they don't interfere in eachother's working. So for this you can deposit layers. First, a 40 nm SiO <sub>2</sub>. Then, 80 nm
+<br>  These are the regions where actually you see the pmos and nmos transistors. So basically we will be creating some bucket kind of in the substrate, where we will create pmos and nmos. First we will create some isolation between the pockets so they don't interfere in eachother's working. So for this you can deposit layers. First, a 40 nm SiO <sub>2</sub>. Then, 80 nm Si<sub>3</sub>N<sub>4</sub> and a 1um photoresist.  
+There is a term Mask. The layout particularly in the fabrication term is known as mask. The layouts that we see in custom design are converted to these masks. 
+<br> Now the areas where we donot want any chemical reactions to happen, we will place the masks over there. Then we will the expose the areas not covered to UV light. Then we will wash or remove the area which was not covered.
+
+![Screenshot 2024-03-28 230516](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/eaf51411-8cf1-425c-9319-e6e174ad5e4b)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![Screenshot 2024-03-28 230525](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/70deb806-dd10-42b6-adab-c3ff55025342)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Then you can remove this mask layer.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
