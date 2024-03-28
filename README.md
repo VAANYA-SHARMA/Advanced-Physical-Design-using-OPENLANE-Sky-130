@@ -435,8 +435,14 @@ So first we will make some estimations. The estimations we are going to make wil
 <br> If we see it would be like two people, one standing at the point Din 2 and one at the flipflop. So if the person at Din2 shouts it would be very much difficult for the person to hear as the distance is huge. So this problem can be solved by placing two people in between so that they hear the other person clearly and pass on the message. This is known as signal integrity. Here comes the task of repeaters. These repeaters are basically buffers, they will recondition your signal make a new signal that replicates your signal and send it again. 
 <br> But again there comes a problem, which is that these repeaters will occupy more n more space on the floorplan. 
 
+Now turn by turn we will seeing where there is a need of a repeater.
+<br> First let us look at the orange section. Here if we see, all the components have decent distance in between. So hee the signal integrity can be maintained without any use of repeaters.
+<br> Now let us move onto the yellow section. In this case the distance between FF1 and Din2 is pretty large, so here some repeaters should be placed to maintain the integrity. 
 
+![Screenshot 2024-03-28 170814](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1e0b1c7c-65b5-41d3-abe2-27c0d5981142)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+<br> 
 
 
 
