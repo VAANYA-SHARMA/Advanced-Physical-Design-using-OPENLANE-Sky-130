@@ -35,6 +35,8 @@ Day 4 - Pre-layout timing analysis and importance of good clock tree
 <br> Routing and design rule check (DRC)
 <br> PNR interactive flow tutorial
 
+Acknowledgements
+
 ## Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 ### <br> How to talk to computers
 #### <br> Before starting with the concepts, here are some basic termonologies that will help you understand the after written things the better way:-
@@ -456,13 +458,52 @@ Now as you can see, the line we have drawn for the placement of the repeater pas
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/74474a5a-5055-4cf5-aef2-3e36a7be7f68)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
+Lab lesson 5
       
-#### Need for characterization.
+#### Cell Design FLow
 
-Let us see an IC design flow that every design needs to go through if it wants to be implemented on a chip.
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/343dd35e-8bb0-4eef-8ce2-df7121e22499)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-1st step - LOGIC SYNTHESIS. If you have a functionality that is written in a RTL format, the process of converting it into  
+The above chip is placed and routed. If you take up any cell like a buffer, gate or a flipflop it would be known as STANDARD CELL. This term is an essential one.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3eb1d20c-ec42-43dd-89cd-7733a3e3d4eb)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+These all standard cells are placed into a section known as _Library_. Also here the macros, The IPs and the DECAPs are kept in this library. This library is also discussed earlier.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2b803fa0-94d1-4fc3-a47e-05d99b764330)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/18751edb-8c2e-4689-95e6-224b2fbe59a3)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now, if you take any gate, like inverter only. We might consider it as a only a single input gate. But for a IC design, it has got something else to do with it. This simple cell has to go through a great design flow. 
+
+ This process has got 3 major steps :- Inputs, Design steps and Outputs.
+
+<br>Inputs- These are the inputs that we need to create this cell.
+<br> PDKs consisting of DRC & LVS rules, SPICE models, library and user-defined specs. 
+
+<br>Design Steps- designing stage.
+<br>  Circuit design, layout design, characterization.
+
+<br>Outputs- The outputs actually used by the EDA tools.
+<br>CDL (circuit description language), GDSII, LEF, extracted spice netlist (.cir), timing, noise, power .libs, function.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/42edb348-ed04-4b45-b2b3-b1a9b8904cbc)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+We have the following things from the 3 steps we about which read you earlier :-
+
+Layout, description, spice extracted netlist, inverter sub circuit. 
+
+
+
+
+
+
+
 
 
 
