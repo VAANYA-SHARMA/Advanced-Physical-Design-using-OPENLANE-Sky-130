@@ -497,14 +497,17 @@ Now, if you take any gate, like inverter only. We might consider it as a only a 
 We have the following things from the 3 steps we about which read you earlier :-
 
 Layout, description, spice extracted netlist, inverter sub circuit. 
+<br> Let us now using these things follow the characterization flow. 
 
+1st step - Read the model file.
+2nd step - Read the extracted spice netlist file.
+3rd step - Define or recognise the behaviour of the buffer.
+4th step - Read the sub circuit file.
+5th step - Attach the necessary power supplies.
+6th step - Apply the stimulus.
+7th step - Provide the necessary output capacitances.
+8th step - Provide the necessary simulation command
 
-
-
-
-
-
-
-
+The last step is to provide all this data to a software namely GUNA.
 
 
