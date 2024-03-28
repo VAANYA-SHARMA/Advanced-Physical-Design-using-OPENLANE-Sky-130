@@ -447,21 +447,22 @@ Now turn by turn we will seeing where there is a need of a repeater.
 ![Screenshot 2024-03-28 175602](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/89e6b309-48c6-4573-9e29-46dcd4a1e0ee)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Green section now.  First if we see the distance between Din4 and FF1, it is not feasible here for the signals to pass without any repeaters, so we will place a repeater here. 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5ab2ecac-cd6f-492a-8188-656158d7ea00)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now as you can see, the line we have drawn for the placement of the repeater passes through the preplaced cells. It is (as we discussed earlier) a area where we are not supposed to put any component. So we will place a buffer above the area already occupied. Now if we look at the distance betwen FF1 and gate 1, the distance is decent but there is a kind of  criss cross as the wire of the connection blue Buff and Blue FF2 are also going the same way. And this is completely okay and how to fix this, we will be seeing ahead. If I tryna explain it simply,it is like that there are different layers. And if there are some overlapping wires, we can print them in different layer. So now the gate 1 and gate 2. The distance between them is pretty large and there is a cell in between and as I told earlier it was completely normal. So yeah we would place a buffer in between. And the distances between gate 2 to FF2 and FF2 to Dout4 is pretty feasible to cover without repeaters.                                                                                   
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/74474a5a-5055-4cf5-aef2-3e36a7be7f68)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
+      
+#### Need for characterization.
 
+Let us see an IC design that every design needs to go through if it wants to be implemented on a chip.
 
-
-
-
-
-
-
-
-
-
-
-
+1st step - LOGIC SYNTHESIS,  
 
 
 
