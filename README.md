@@ -390,11 +390,11 @@ Now we will do some thing known as Logical Cell Placement Blockage. This would n
 
 <br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/327a7cca-aea9-4d35-a5fb-7856cf7fdb3a)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
-
+lab 678
 
 ### <br> Library Binding and Placement 
 #### Placement And Routing 
-###### Bind the Netlist with Physical Cells
+##### Bind the Netlist with Physical Cells
 
 To know what this step means let us have a look at the netlist we took earlier. 
 <br> ![Screenshot 2024-03-27 231154](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/dd0b0bde-ffce-44d8-8571-bb08b4beaa9f)
@@ -405,6 +405,8 @@ Now you must have seen the specific shapes of the gates. Like the NOT gate has a
 So what are the components that we have all ready. A well defined flooor plan, A netlist and a physical view of logic gates.
 ![Screenshot 2024-03-28 120616](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8e138385-f863-487b-bb8e-67d6ce1b41e5)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+##### Placement
 
 Now. We won't be using the shapes of the gates from the netlist but the connections. And the shapes we will be taking from the physical view of logic gates. Now on our floor plan there are some preplaced cells, that were placed during the floor planning step. In this step we need to make sure that automated router does not effect or move these cells and no components are placed on the area where these cells are placed. 
 <br> How do we place these cells?? We have to place in such a manner that they are almost as in the circuit. Like in the circuit the FF 1 in the 1st section is near the Din 1, in the floor plan it should be in the same way. This would reduce the large physical gap, which can lead to delay. 
@@ -425,7 +427,33 @@ So let us first see how will be the blue section placed.
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
-Let us now arrive at our problems. The 
+Let us now arrive at our problems. The only answer to our problem is optimize placement.
+
+##### Optimize Placement
+
+So first we will make some estimations. The estimations we are going to make will be about the capacitances even before the wiring or we can say routing. But how would it make a difference ??   
+<br> So in actual there is a wire from one point to another. Like from Din2 to yellow FF1.  So if we look at the area of the wire from the Din2 and FF1(yellow) it is pretty large. So the capacitance and resistance will also be more. 
+<br> If we see it would be like two people, one standing at the point Din 2 and one at the flipflop. So if the person at Din2 shouts it would be very much difficult for the person to hear as the distance is huge. So this problem can be solved by placing two people in between so that they hear the other person clearly and pass on the message. This is known as signal integrity. Here comes the task of repeaters. These repeaters are basically buffers, they will recondition your signal make a new signal that replicates your signal and send it again. 
+<br> But again there comes a problem, which is that these repeaters will occupy more n more space on the floorplan. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
