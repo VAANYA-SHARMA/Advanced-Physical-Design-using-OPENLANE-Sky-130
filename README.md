@@ -1,4 +1,3 @@
-![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8d1daaac-7d5f-4050-855f-362035a892d4)
 # Advanced-Physical-Design-using-OPENLANE-Sky-130
 Author : Vaanya Sharma 
 
