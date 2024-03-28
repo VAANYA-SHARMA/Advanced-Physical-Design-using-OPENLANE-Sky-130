@@ -17,7 +17,7 @@ Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> [Chip Floor planning considerations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-chip-floor-planning-considerations)
 <br> [Library Binding and Placement](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-library-binding-and-placement)
-<br> Cell design and characterization flows
+<br> [Cell design and characterization flows]()
 <br> General timing characterization parameters
 
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
@@ -459,7 +459,8 @@ Now as you can see, the line we have drawn for the placement of the repeater pas
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 Lab lesson 5
-      
+
+### <br> Cell Design and characterization Flows
 #### Cell Design FLow
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/343dd35e-8bb0-4eef-8ce2-df7121e22499)
@@ -508,6 +509,11 @@ Layout, description, spice extracted netlist, inverter sub circuit.
 7th step - Provide the necessary output capacitances.
 8th step - Provide the necessary simulation command
 
-The last step is to provide all this data to a software namely GUNA.
+The last step is to provide all this data to a software namely GUNA in form of a configuration.
+<br> Using guna, we can classify characterization into mainly 3 types:-
+<br>>Timing
+<br>>Power
+<br>>Noise
 
 
+ 
