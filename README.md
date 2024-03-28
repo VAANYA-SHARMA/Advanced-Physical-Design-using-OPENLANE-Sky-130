@@ -17,8 +17,7 @@ Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> [Chip Floor planning considerations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-chip-floor-planning-considerations)
 <br> [Library Binding and Placement](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-library-binding-and-placement)
-<br> [Cell design and characterization flows]()
-<br> General timing characterization parameters
+<br> [Cell design and characterization flows](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#-cell-design-and-characterization-flows)
 
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 <br> Labs for CMOS inverter ngspice simulations
@@ -515,5 +514,29 @@ The last step is to provide all this data to a software namely GUNA in form of a
 <br>>Power
 <br>>Noise
 
+## Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
+### <br>  Labs for CMOS inverter ngspice simulations
+labs sk1 
 
- 
+### <br> Inception of Layout – CMOS fabrication process
+
+16 MASK CMOS PROCESS
+
+1. Selecting a Substrate
+<br>  A substrate is something onto which you fabricate your design. The one we will be choosing will be a p-type. Out of all the qualities of the substrate, we will be mainly focusing on resistivity and doping level. The main focus for our doping level will be that the Substrate doping should be less than well doping.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/4e054482-3f94-49b9-9314-f045aa33065d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+2. Creating active region for transistors.
+<br>  These are the regions where actually you see the pmos and nmos transistors. So basically we will be creating some bucket kind of in the substrate, where we will create pmos and nmos. First we will create some isolation between the pockets so they don't interfere in eachother's working. So for this you can deposit layers. First, a 40 nm SiO <sub>2</sub>. Then, 80 nm
+
+
+
+
+
+
+
+
+
+
