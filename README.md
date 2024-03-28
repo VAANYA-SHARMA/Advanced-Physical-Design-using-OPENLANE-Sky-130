@@ -1,4 +1,4 @@
-
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8d1daaac-7d5f-4050-855f-362035a892d4)
 # Advanced-Physical-Design-using-OPENLANE-Sky-130
 Author : Vaanya Sharma 
 
@@ -17,7 +17,7 @@ Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> [Chip Floor planning considerations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-chip-floor-planning-considerations)
-<br> [Library Binding and Placement]()
+<br> [Library Binding and Placement](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-library-binding-and-placement)
 <br> Cell design and characterization flows
 <br> General timing characterization parameters
 
@@ -412,6 +412,20 @@ Now. We won't be using the shapes of the gates from the netlist but the connecti
 ![Screenshot 2024-03-28 142730](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/06763ca9-c136-457c-8341-464f89e1f188)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+So now there is a thing that is to be noticed:-
+<br> As the blue section input pin is Din3 and output pin is Dout3, then how will we place it as both pins are way far from each other...? And same is the problem for the green section....
+
+So let us first see how will be the blue section placed. 
+
+![Screenshot 2024-03-28 143549](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/dbd842ef-e4a1-44ce-9bee-05705d59c06c)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+<br> Now still we can see that there is a large gap between the input pin and the output pin. We will look at that problem after placing the green section. If you would have noticed that even the distance from the Din 4 to Dout 4 is still large, these two are the pins of section 4 green.So its placement would look something like below.  
+
+![Screenshot 2024-03-28 144104](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/66f7851b-b3f6-45fb-a282-c2bae34f4f80)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+Let us now arrive at our problems. The 
 
 
 
