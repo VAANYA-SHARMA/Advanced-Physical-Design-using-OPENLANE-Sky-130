@@ -406,6 +406,12 @@ So what are the components that we have all ready. A well defined flooor plan, A
 ![Screenshot 2024-03-28 120616](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8e138385-f863-487b-bb8e-67d6ce1b41e5)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-Now. We won't be using the shapes of the gates from the netlist but the connections. And the shapes we will be taking from the physical view of logic gates. 
+Now. We won't be using the shapes of the gates from the netlist but the connections. And the shapes we will be taking from the physical view of logic gates. Now on our floor plan there are some preplaced cells, that were placed during the floor planning step. In this step we need to make sure that automated router does not effect or move these cells and no components are placed on the area where these cells are placed. 
+<br> How do we place these cells?? We have to place in such a manner that they are almost as in the circuit. Like in the circuit the FF 1 in the 1st section is near the Din 1, in the floor plan it should be in the same way. This would reduce the large physical gap, which can lead to delay. 
+
+![Screenshot 2024-03-28 142730](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/06763ca9-c136-457c-8341-464f89e1f188)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
 
 
