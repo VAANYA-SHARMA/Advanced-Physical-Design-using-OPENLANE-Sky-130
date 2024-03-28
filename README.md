@@ -17,7 +17,7 @@ Day1 – Inception of open-source EDA, OpenLANE and Sky130 PDK
 
 Day 2 - Understand importance of good floorplan vs bad floorplan and introduction to library cells
 <br> [Chip Floor planning considerations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-chip-floor-planning-considerations)
-<br> Library Binding and Placement
+<br> [Library Binding and Placement]()
 <br> Cell design and characterization flows
 <br> General timing characterization parameters
 
@@ -382,10 +382,18 @@ Now let's try to modify this circuit a bit. Starting with the repitition of Clk1
 ![Screenshot 2024-03-27 231748](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d5d1bc00-ab22-438d-a97a-d6557e8bd30f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-So let us put this design in the chip we are trying to design. 
+So let us put this design in the chip we are trying to design. It would look something like this.
+<br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8f437ecb-bd8f-4bff-b3bd-829455a6e253)
+
+Now we will do some thing known as Logical Cell Placement Blockage. This would not allow any cell to be placed in the area where the pins have been placed.
+
+<br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/327a7cca-aea9-4d35-a5fb-7856cf7fdb3a)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
-
+### <br> Library Binding and Placement 
+#### Placement And Routing 
+###### Bind the Netlist with Physical Cells
 
 
 
