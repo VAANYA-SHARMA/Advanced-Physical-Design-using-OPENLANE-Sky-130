@@ -384,6 +384,7 @@ Now let's try to modify this circuit a bit. Starting with the repitition of Clk1
 
 So let us put this design in the chip we are trying to design. It would look something like this.
 <br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8f437ecb-bd8f-4bff-b3bd-829455a6e253)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 Now we will do some thing known as Logical Cell Placement Blockage. This would not allow any cell to be placed in the area where the pins have been placed.
 
@@ -395,10 +396,16 @@ Now we will do some thing known as Logical Cell Placement Blockage. This would n
 #### Placement And Routing 
 ###### Bind the Netlist with Physical Cells
 
+To know what this step means let us have a look at the netlist we took earlier. 
+<br> ![Screenshot 2024-03-27 231154](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/dd0b0bde-ffce-44d8-8571-bb08b4beaa9f)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Now you must have seen the specific shapes of the gates. Like the NOT gate has a triangle which as a bubble at the tip. So basically these shapes represent the functionality of the gate. But in our physical world these gates are in shape of a box either square or rectangle. And perform the funcction the gate they are supposed to perform. Now you can consider these cells as some books on a shelf. this shelf has many kind of these books and is known as a library. This library along with the cells has many kinds of information about them like - timing info, dimensions and the conditions for them to omit an output. It also has the same cell in various sizes. The bigger the size, the less the resistance, the faster the cell.
 
+So what are the components that we have all ready. A well defined flooor plan, A netlist and a physical view of logic gates.
+![Screenshot 2024-03-28 120616](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8e138385-f863-487b-bb8e-67d6ce1b41e5)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
-
+Now. We won't be using the shapes of the gates from the netlist but the connections. And the shapes we will be taking from the physical view of logic gates. 
 
 
