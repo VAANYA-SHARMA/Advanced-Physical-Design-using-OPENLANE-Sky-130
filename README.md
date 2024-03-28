@@ -460,9 +460,9 @@ Now as you can see, the line we have drawn for the placement of the repeater pas
       
 #### Need for characterization.
 
-Let us see an IC design that every design needs to go through if it wants to be implemented on a chip.
+Let us see an IC design flow that every design needs to go through if it wants to be implemented on a chip.
 
-1st step - LOGIC SYNTHESIS,  
+1st step - LOGIC SYNTHESIS. If you have a functionality that is written in a RTL format, the process of converting it into  
 
 
 
