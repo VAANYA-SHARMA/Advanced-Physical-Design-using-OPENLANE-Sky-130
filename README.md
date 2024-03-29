@@ -553,12 +553,43 @@ When we will put this substrate in a very hi temperature furnace, the area of Si
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/86106984-fcce-447d-991f-6db2b3777fbc)
 <br> SOURCE OF THE IMAGE- THE WEB PAGE OF IIT KANPUR. 
-<BR> THE LINK-  [OXIDATION FURNACE| IITK] (https://www.iitk.ac.in/dordold/index.php?option=com_content&view=category&layout=blog&id=186&Itemid=205#:~:text=Oxidation%20Furnace&text=Thermal%20oxidation%20is%20a%20simple,filler%20material%20in%20gaps%20etc).
+<BR> THE LINK- (https://www.iitk.ac.in/dordold/index.php?option=com_content&view=category&layout=blog&id=186&Itemid=205#:~:text=Oxidation%20Furnace&text=Thermal%20oxidation%20is%20a%20simple,filler%20material%20in%20gaps%20etc).
 
 
+THIS WOULD NOW LOOK SOMETHING LIKE BELOW.........
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/352132d4-2f1f-4e4e-9ff4-f10c3687b267)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+The grown part is referred to field oxide or the bird's beak. And the process is known as "LOCOS"(Local Oxidation of Silicon.). 
 
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9b2bb907-4f36-4eab-9fcb-df72e2e3e120)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Si<sub>3</sub>N<sub>4</sub> will be stripped using hot phosphoric acid. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/27250d7e-7b42-4b6c-b7b8-48c177530030)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now, let me define the regions. The well kind of regions that were protected regions are the active regions. And the grown part is the isolated region, which won't allow one transistor to interfere in other transistor's working. 
+
+3. Creating N-well and P-well. 
+<br> Now the N-well will be used for the fabrication of PMOS transistors and the P-well will be used for NMOS transistors. In this also, one area needs to be protected as both the wells cannot be formed at the same time. The process to be followed now is pretty similar to the one followed earlier. First put a layer of photoresist, and then the mask upon the area you want to protect. Expose to UV light. Wash off the exposed area. Remove the mask. And now for making a P-well in the exposed area, we will use Boron. Boron is a P-type substance. To diffuse Boron into the well, we would use the process namely Ion implementation.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ee97d44b-1083-4bcb-9450-677afb126e43)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+<br> You follow the same steps for N-well as well. But in place of Boron you use Phosphurous as it is an N-type substance. 
+
+![Screenshot 2024-03-29 095933](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/b3fba42f-d639-476a-8668-8844de6c164e)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![Screenshot 2024-03-29 100125](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ed522c49-f405-4aa6-b027-eeac85f7a847)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![Screenshot 2024-03-29 100145](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ef433249-5875-4781-9c44-be7788037501)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
 
