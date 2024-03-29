@@ -21,7 +21,7 @@ Day 2 - Understand importance of good floorplan vs bad floorplan and introductio
 
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 <br> [Labs for CMOS inverter ngspice simulations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#--labs-for-cmos-inverter-ngspice-simulations)
-<br> [Inception of Layout – CMOS fabrication process](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/edit/main/README.md#-inception-of-layout--cmos-fabrication-process)
+<br> [Inception of Layout – CMOS fabrication process](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-inception-of-layout--cmos-fabrication-process)
 <br> Sky130 Tech File Labs
 
 Day 4 - Pre-layout timing analysis and importance of good clock tree
