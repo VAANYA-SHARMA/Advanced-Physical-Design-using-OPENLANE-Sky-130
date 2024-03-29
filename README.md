@@ -700,8 +700,22 @@ So to start with, we will first etch the thin oxide layer that we had put in the
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/775101e8-9a99-4fd5-a863-b56bc645f4b5)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Apart from the above result for the N<sub>2</sub> being an ambient there is another result. That is TiN that is used only for local comunication.  
+
+So now, If you look at the previous image you will able to see a dark blue layer which is in the area where there are no thick layers. That layer is TiSi<sub>2</sub>. And the light blue layer above every structure is TiN.
 
 
+Now we need to decide which contacts to bring to the next level. As some connections can be made internally and there is no need of taking them above. 
+
+Now we will put the layers of photoresist and mask 11 on the areas which we want to reach above. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/436b90f8-e747-480b-893f-d1d412f7b405)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Then remove the mask and etch off the extra TiN using RCA cleaning. RCA cleaning is done a solution known as RCA only. Its solutes vary from use to use. In this it would consist of:- 
+<br> 1. De-ionized water (H<sub>2</sub>O), 5 parts
+<br> 2. Ammonium hydroxide (NH<sub>4</sub>OH), 1 part
+<br> 3. Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>O), 1 part
 
 
 
