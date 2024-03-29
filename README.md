@@ -671,24 +671,34 @@ Now add a thin layer of screen oxide. The purpose of adding it is to avoid the e
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d5f9729d-2f8a-453b-a0cd-269afc1469fd)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-Now again thesame process. Photoresistor, Mask 9, other side's exposure to UV light, Ion implant of arsenic, 
+Now again thesame process. Photoresistor, Mask 9, other side's exposure to UV light, Ion implant of arsenic.
 
 ![Screenshot 2024-03-29 134206](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1fc364ef-f0eb-485d-a657-782a11efc25c)
 
+Same for the otherside. Ion implant with Boron. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/a680b85d-500c-4723-ad76-0d86f23a1196)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now we will do High Temperature Annealinng.
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/eb7571dc-4472-4f08-a03c-7c3474cb1ffb)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+7. Steps to form contacts and interconnects(local) 
+
+So contacts are really important because, that is the only thing that is accessible to an user. It is a medium through which you can control the electrical characteristics of your transistors.   
+
+So to start with, we will first etch the thin oxide layer that we had put in the earlier steps. Then, deposit titanium on wafer surface, using sputtering. But what is sputtering?? It is a process in which we take the metal, which in this example is titanium and hit argon gas at it. And this will make the atoms of the titanium sputter and enter into the substrate.    
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f8930305-c0ae-425c-8442-d52e6c5d1c39)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/4e2ef4a8-3eca-444c-b2a6-944161b4f6a7)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/775101e8-9a99-4fd5-a863-b56bc645f4b5)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
 
