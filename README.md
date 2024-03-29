@@ -656,9 +656,24 @@ But why is it n- and not n+ ?? It is so, because if p or n type has "-" as after
 
 Same process for PMOS. But with Boron. 
 
-![Uploading image.png…]()
+![Screenshot 2024-03-29 130424](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/09a8fe90-641f-491e-94ab-74c3e7f5836f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Now somehow we have to protect the implants so in the further processes nothing gets into them. So we will put some spacers over there. So first deposit a thick layer of either SiO <sub>2</sub> or Si<sub>3</sub>N<sub>4</sub>. So we will do Plasma anisotropic etching. In this all of the layer is etched but the substance near the side walls remains.  
+
+![Screenshot 2024-03-29 132323](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5443e6cb-7545-4645-b07d-8ae29389c08c)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+6. Source and Drain formation.
+
+Now add a thin layer of screen oxide. The purpose of adding it is to avoid the effect of channeling. The effect of channeling is when we do alot of ion implant and when the vector velocity of the crystaline structure of our P substrate matches with the velocity of the ions. When this happens, the ions might go deep into the substrate without even hitting any of the silicon atoms. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/d5f9729d-2f8a-453b-a0cd-269afc1469fd)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now again thesame process. Photoresistor, Mask 9, other side's exposure to UV light, Ion implant of arsenic, 
+
+![Screenshot 2024-03-29 134206](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/1fc364ef-f0eb-485d-a657-782a11efc25c)
 
 
 
@@ -666,3 +681,102 @@ Same process for PMOS. But with Boron.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
