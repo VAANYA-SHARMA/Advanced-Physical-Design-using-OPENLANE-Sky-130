@@ -176,10 +176,10 @@ If we try to know the difference , it would be like:-
 POWER PLANNING- To provide power to the every macros and standard cells present in the design.
 
 The next step is **_PLACEMENT_**.
- <br> For MACROs, we'll place gate level netlist cells on the floor plan rows. Obviously these cells must be placed very close to each other to reduce interconnect delay. 
-  <br> It is done in 2 steps:- 
-   <br> GLOBAL:- Tries to find optimal position for more cells, Such positions are not necessarily leagal. So cells might overlap.
-    <br> DETAILED:- In this the positions recieved from the global step are minimally altered to be legal.
+<br> For MACROs, we'll place gate level netlist cells on the floor plan rows. Obviously these cells must be placed very close to each other to reduce interconnect delay. 
+<br> It is done in 2 steps:- 
+<br> GLOBAL:- Tries to find optimal position for more cells, Such positions are not necessarily leagal. So cells might overlap.
+<br> DETAILED:- In this the positions recieved from the global step are minimally altered to be legal.
 
  <br> The next step is **_CLOCK TREE SYNTHESIS_**. The CTS is used to create network namely the **CLOCK DISTRIBUTION NETWORK** WHICH GIVES THE CLOCK TO ALL SEQUENTIAL ELEMENTS.
  <br> The next step is **_ROUTING_**. SIGNAL ROUTING. Given the placement and fixed metal layers, is required to know the pattern of horizontal and vertical wires to implement the nets. It is done on routing grids for least DRC erreors.
@@ -395,22 +395,26 @@ Now let us look at the labs.
 Till now we have done the labs till the command run_synthesis. So in our design flow the next step is run_floorplan. So we will be in the OpenLANE % prompt.
 
 ![Screenshot 2024-03-29 220201](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3cf21dfe-d4f7-4093-9746-643415942dab)
-<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 ![Screenshot 2024-03-29 220245](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3b59c2d3-f008-45bb-9852-5dabd7e8fb17)
-<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Now there is another file that contains the dimensions of core and die. 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/30652ae8-10d8-476a-b1d1-4e7e76c0415d)
 
+And now if you wish to the see the layout after program, you can visit magic. 
+<br>![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e2882e4d-12f8-4ce1-8717-4bb885cf982d)
 
+Through this we can review the layout of our design. So there are some features that we would need to know for using magic, as below:-
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/5193281b-2c4a-49ce-9aec-f04cee4b6df7)
 
+1st - If you want the the layout to fit to your screen, select the layout and click on V.
+<br> 2nd - If you want to zoom in, left click on mouse then right click and then Z on the keyboard. 
+<br> Now if youn want to know about any component in the layout window, hover your pointer over it. Press S on your keyboard. And go the tkcon window opened. An while the component is selected type what in the tckon window. 
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8aa3928c-0bc2-471f-bfbb-461ddd321a4b)
 
-
-
-
-
-
+You can also zoom in and look at the details of many components. Also to tell this layout that we call is the floorplan, So it doesnot care about the placement of standard cells.
 
 ### <br> Library Binding and Placement 
 #### Placement And Routing 
@@ -533,6 +537,15 @@ The last step is to provide all this data to a software namely GUNA in form of a
 <br>>Timing
 <br>>Power
 <br>>Noise
+
+Labs- 
+
+
+
+
+
+
+
 
 ## Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 ### <br>  Labs for CMOS inverter ngspice simulations
