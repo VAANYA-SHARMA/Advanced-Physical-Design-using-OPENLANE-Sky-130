@@ -717,26 +717,42 @@ Then remove the mask and etch off the extra TiN using RCA cleaning. RCA cleaning
 <br> 2. Ammonium hydroxide (NH<sub>4</sub>OH), 1 part
 <br> 3. Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>O), 1 part
 
+It would look ssomething like below- 
+<br>![Screenshot 2024-03-29 173223](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ac10b124-11bb-4ee9-ae70-a18310fdf3c9)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now we remove the photoresist layer. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/00101cc3-cf73-4591-a111-2bee45ef3553)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+8. Higher level metal formation.
+
+Now if we see surface topogaraphy of this state of the substrate is not suitable for further ados. 
+
+So for this we will deposit a thick layer of SiO <sub>2</sub>. And this is a specific  SiO <sub>2</sub> doped with phosphorous or boron (known as phosphosiicate glass or borophosphosilicate glass) depsited on wafer surface.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c441258f-c33d-447a-8406-87a3c1d96236)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now, we will use the Chemical Mechanical Polishing technique for planarizing wafer surface. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/46b26ebe-736a-40a3-80aa-2de1822cd001)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now we will follow some more processes and form the below kind of substrate.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2a3f77a1-8b7b-48f1-808b-e97053e13807)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
 
+## Day 4 -  Pre-layout timing analysis and importance of good clock tree
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### <br> Timing modelling using delay tables
+ 
+lab 123
 
 
 
