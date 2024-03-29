@@ -539,15 +539,21 @@ There is a term Mask. The layout particularly in the fabrication term is known a
 ![Screenshot 2024-03-28 230525](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/70deb806-dd10-42b6-adab-c3ff55025342)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-Then you can remove this mask layer.
+Then you remove this mask layer. Now if you do any reactions or depositions, the area under the photoresist won't be effected. 
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9b437569-8972-4852-b62f-e064674226d6)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Now we will also remove the layer of 80 nm Si<sub>3</sub>N<sub>4</sub> that was exposed to UV light and the photoresist as well. The remaining layer of Si<sub>3</sub>N<sub>4</sub> will also act as a good layer of protection as well. 
 
+![Screenshot 2024-03-29 091448](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ffdedb54-c277-4b16-977e-12124c980023)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+When we will put this substrate in a very hi temperature furnace, the area of SiO <sub>2</sub> that is not covered by Si<sub>3</sub>N<sub>4</sub> will grow and the area that was covered won't grow. Let us see how. So first we need to place this in an oxidation furnace. It looks something like this.....
 
-
-
-
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/86106984-fcce-447d-991f-6db2b3777fbc)
+<br> SOURCE OF THE IMAGE- THE WEB PAGE OF IIT KANPUR. 
+<BR> THE LINK-  [OXIDATION FURNACE| IITK] (https://www.iitk.ac.in/dordold/index.php?option=com_content&view=category&layout=blog&id=186&Itemid=205#:~:text=Oxidation%20Furnace&text=Thermal%20oxidation%20is%20a%20simple,filler%20material%20in%20gaps%20etc).
 
 
 
