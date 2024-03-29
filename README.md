@@ -591,6 +591,23 @@ Now, let me define the regions. The well kind of regions that were protected reg
 ![Screenshot 2024-03-29 100145](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ef433249-5875-4781-9c44-be7788037501)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+These wells are also known as the twin tubs. Now we need to diffuse the well, so that it covers almost half of the substrate. This will decide the depth of the wells. So for this we will be putting this into a high temperature furnace.  
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/40937700-52fa-4c2b-a397-da16f605463a)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+4. Formation of Gate
+
+
+
+
+
+
+
+
+
+
 
 
 
