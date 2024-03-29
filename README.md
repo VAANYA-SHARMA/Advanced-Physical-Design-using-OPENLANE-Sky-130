@@ -22,7 +22,7 @@ Day 2 - Understand importance of good floorplan vs bad floorplan and introductio
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 <br> [Labs for CMOS inverter ngspice simulations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#--labs-for-cmos-inverter-ngspice-simulations)
 <br> [Inception of Layout – CMOS fabrication process](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-inception-of-layout--cmos-fabrication-process)
-<br> Sky130 Tech File Labs
+<br> [Sky130 Tech File Labs]()
 
 Day 4 - Pre-layout timing analysis and importance of good clock tree
 <br> Timing modelling using delay tables
@@ -481,7 +481,17 @@ Now as you can see, the line we have drawn for the placement of the repeater pas
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/74474a5a-5055-4cf5-aef2-3e36a7be7f68)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-Lab lesson 5
+Lab lesson 5-
+
+So till now we have done till the process of floorplanning. Now our next step is placement. For the command will run_placement. 
+![Screenshot 2024-03-29 232628](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/eecaf5de-bdfd-4f8e-a332-e84e83a93c05)
+
+![Screenshot 2024-03-29 232644](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/56f08b3e-5de3-47bc-853e-f0b430c6e312)
+
+For checking onto your placement, go to maic with the following directory.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fef3f1da-6531-4818-84cc-dfafd6ff6c3f)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 ### <br> Cell Design and characterization Flows
 #### Cell Design FLow
@@ -538,18 +548,48 @@ The last step is to provide all this data to a software namely GUNA in form of a
 <br>>Power
 <br>>Noise
 
-Labs- 
-
-
-
-
-
-
-
-
 ## Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 ### <br>  Labs for CMOS inverter ngspice simulations
-labs sk1 
+ 
+Now we will doing some spice simulations on some MOSFETS. But first we need to create a spice deck. A spice deck is a connectivity information of a netlist. So we need to create for PMOS And NMOS as well. We need to define the following things for creating this spice deck.....
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/6722add4-f2e0-4c68-88c6-526f670b1f0c)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+The connectivity information of PMOS.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/75e9eac4-0354-419f-8509-3a27294d9833)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+The connectivity information of NMOS.
+
+![Screenshot 2024-03-30 002823](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/4f142434-8d47-44af-a6ed-927d88ce5c38)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+The connectivity information of CLOAD(capacitor load).
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/79060827-7836-4c3f-938f-b980ff80c5bd)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+The connectivity information of VDD.
+
+![Screenshot 2024-03-30 003047](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0f5d5ee5-e00e-4e2b-8458-55365507b29f)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### <br> Inception of Layout – CMOS fabrication process
 
