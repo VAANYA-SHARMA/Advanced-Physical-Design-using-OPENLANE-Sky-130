@@ -599,10 +599,17 @@ These wells are also known as the twin tubs. Now we need to diffuse the well, so
 
 4. Formation of Gate
 
+Gate as we see now, is the most important termianl of the transistors beacause you control the threshold voltage(turning on voltage of the transistor) from here. So the fabrication of gate terminal becomes really important. 
+
+![Screenshot 2024-03-29 110459](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f2c6eb80-51fa-422a-b6b3-b45961398e2b)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/e1857037-d872-4624-927f-f87cd33e506c)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
-
-
+So, we need to control the oxide capacitance and doping concentration.
+<br> First let us control doping capacitance. Now, we will follow the same steps as before. Now we will be using the mask4, and as the name suggests for this CMOS process we will  be using total of 16 masks. 
 
 
 
