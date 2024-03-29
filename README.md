@@ -651,12 +651,13 @@ We need to create LDD of two types, P- and N-. First we will put a layer of phot
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/53e09902-8d39-4c4f-abb3-6d54f3aa387d)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-But why is it n- and not n+ ?? It is so, because if p or n type has - as after them,  
+But why is it n- and not n+ ?? It is so, because if p or n type has "-" as after them, it means it is lightly doped.
 
 
+Same process for PMOS. But with Boron. 
 
-
-
+![Uploading image.png…]()
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
 
 
