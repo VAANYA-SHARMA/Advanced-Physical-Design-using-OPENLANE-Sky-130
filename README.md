@@ -575,7 +575,7 @@ Si<sub>3</sub>N<sub>4</sub> will be stripped using hot phosphoric acid.
 Now, let me define the regions. The well kind of regions that were protected regions are the active regions. And the grown part is the isolated region, which won't allow one transistor to interfere in other transistor's working. 
 
 3. Creating N-well and P-well. 
-<br> Now the N-well will be used for the fabrication of PMOS transistors and the P-well will be used for NMOS transistors. In this also, one area needs to be protected as both the wells cannot be formed at the same time. The process to be followed now is pretty similar to the one followed earlier. First put a layer of photoresist, and then the mask upon the area you want to protect. Expose to UV light. Wash off the exposed area. Remove the mask. And now for making a P-well in the exposed area, we will use Boron. Boron is a P-type substance. To diffuse Boron into the well, we would use the process namely Ion implementation.
+<br> Now the N-well will be used for the fabrication of PMOS transistors and the P-well will be used for NMOS transistors. In this also, one area needs to be protected as both the wells cannot be formed at the same time. The process to be followed now is pretty similar to the one followed earlier. First put a layer of photoresist, and then the mask upon the area you want to protect. Expose to UV light. Wash off the exposed area. Remove the mask. And now for making a P-well in the exposed area, we will use Boron. Boron is a P-type substance. To diffuse Boron into the well, we would use the process namely Ion implant.
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/ee97d44b-1083-4bcb-9450-677afb126e43)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
@@ -609,7 +609,49 @@ Gate as we see now, is the most important termianl of the transistors beacause y
 
 
 So, we need to control the oxide capacitance and doping concentration.
-<br> First let us control doping capacitance. Now, we will follow the same steps as before. Now we will be using the mask4, and as the name suggests for this CMOS process we will  be using total of 16 masks. 
+<br> First let us control doping capacitance. Now, we will follow the same steps as before. Now we will be using the mask4, and as the name suggests for this CMOS process we will be using total of 16 masks. And for this we will be using boron but with lesser force. We will maintain the dose of boron in such a manner, so that we have the required doping concentration. And this doping concentration depends upon the threshold voltage seen in the above images. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/a06c31c2-ed88-482a-8f71-a165f6ede0f8)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now using mask 5 we will be following same process for NMOS but again using phosphorous or we can also use arsenic.  
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9fc26e48-d3a2-42c4-bbd0-96610c630481)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+As we have been implementing many layers an P & N type substances, So our oxide is being damaged multiple times. So we will repair this layer.
+
+First we etch the original damaged oxide layer using dilute hydrofluoric solution. Then we regrow this layer to give high quality oxide.  
+<br> ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/730dccb6-a8d9-4e6d-bbf8-251a99118eea)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now we will deposit a layer of 0.4 um polysilicon layer. 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fb12fc0f-9531-46ab-93b8-57777177978d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Then we ion implant any N-type substance either phosphurous or arsenic for low gate resistence.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/716ca0e7-879e-4a48-bc48-c36354ab867e)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now using photoresist and mask 6, we will make something like below. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/26dd0251-2c9c-4366-91d1-000d46a36636)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+Now we can remove the mask and etch away the polysilicon layer that was not covered by photoresist. And then remove the photoresist layer.
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0ea48563-dcb0-42b3-8ae0-e51c66a9336d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+5. Lightly Doped Drain formation
+
+We need to create LDD of two types, P- and N-. First we will put a layer of photoresist then mask7 and expose the other side to UV light. Then remove the mask. And as firstly we have exposed the P well to UV light. So we tend to make a NMOS there. So we would use phosphorous for ion implant. So for this we will be choosing the force and the dosage very carefully, so the n- implant does not penetrate fully into the well and hovers at the top. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/53e09902-8d39-4c4f-abb3-6d54f3aa387d)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+But why is it n- and not n+ ?? It is so, because if p or n type has - as after them,  
 
 
 
