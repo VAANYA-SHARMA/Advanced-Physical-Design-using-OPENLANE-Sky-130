@@ -390,7 +390,27 @@ Now we will do some thing known as Logical Cell Placement Blockage. This would n
 
 <br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/327a7cca-aea9-4d35-a5fb-7856cf7fdb3a)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
-lab 678
+
+Now let us look at the labs. 
+Till now we have done the labs till the command run_synthesis. So in our design flow the next step is run_floorplan. So we will be in the OpenLANE % prompt.
+
+![Screenshot 2024-03-29 220201](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3cf21dfe-d4f7-4093-9746-643415942dab)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+![Screenshot 2024-03-29 220245](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/3b59c2d3-f008-45bb-9852-5dabd7e8fb17)
+<br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### <br> Library Binding and Placement 
 #### Placement And Routing 
