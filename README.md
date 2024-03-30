@@ -577,15 +577,21 @@ The connectivity information of VDD.
 ![Screenshot 2024-03-30 003047](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0f5d5ee5-e00e-4e2b-8458-55365507b29f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Now we will git clone a repository which has the .magic file. The github repository [github repository](https://github.com/nickson-jose/vsdstdcelldesign#standard-cell-design-and-characterization-using-openlane-flow)
 
+Then gitclone the repository link through:-
 
+![Screenshot 2024-03-30 131247](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c5ec9e1b-0612-429d-b1f7-3312df5c71e2)
 
+Now after copying go to openlane directory in terminal........
+<br>Put git clone command and then paste the URL.
 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/50c1aa1e-2ace-489b-97d8-b26ab34938d0)
 
+This will create a folder of the same name as the repository. 
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/9b5f0854-2ec4-44dd-9960-1ffaa385ad2d)
 
-
-
-
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c91a7451-2ad2-439e-a78a-cb41d1b12718)
 
 
 
