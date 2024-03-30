@@ -22,7 +22,6 @@ Day 2 - Understand importance of good floorplan vs bad floorplan and introductio
 <br> Day 3 - Design and characterize one library cell using Magic Layout tool and ngspice
 <br> [Labs for CMOS inverter ngspice simulations](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/tree/main#--labs-for-cmos-inverter-ngspice-simulations)
 <br> [Inception of Layout – CMOS fabrication process](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/blob/main/README.md#-inception-of-layout--cmos-fabrication-process)
-<br> [Sky130 Tech File Labs]()
 
 Day 4 - Pre-layout timing analysis and importance of good clock tree
 <br> Timing modelling using delay tables
@@ -593,7 +592,17 @@ This will create a folder of the same name as the repository.
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/c91a7451-2ad2-439e-a78a-cb41d1b12718)
 
+Now lets look at what is there inside this..
 
+![Screenshot 2024-03-30 135241](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/90f7486d-56ab-4418-bd61-7a16dffd25c1)
+
+Now if you look at the repository and the terminal, they have the same files.
+
+Now we will go to magic with our cloned file. 
+
+![Screenshot 2024-03-30 152739](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2710d3b9-24bd-4d66-a1cc-aeaa38207f4b)
+
+![Screenshot 2024-03-30 152759](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/dad500ad-72b3-49e5-95c3-f9ac597289a2)
 
 
 
@@ -825,13 +834,26 @@ Now we will follow some more processes and form the below kind of substrate.
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2a3f77a1-8b7b-48f1-808b-e97053e13807)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+Labs -
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/738658ea-111f-42b7-82e2-26f06f00c364)
+
+So this is the layout for our inverter that we got in the previous labs. In this are two transistors PMOS and NMOS. 
+
+![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2cdd3ecc-4fc9-4666-bae5-5ece858a7a26)
+
+And the red line is polysilicon. In the repository mentioned, the steps of making an inverter from scratch are also given.
 
 
 ## Day 4 -  Pre-layout timing analysis and importance of good clock tree
 
 ### <br> Timing modelling using delay tables
  
-lab 123
+As of now, we have done till placement in the flow and extracted a spice file given a .magic file. Now if we see into the amgic layout, it has many kinds of information, but we donot need that file for routing purpose. We need the info inside that layout. And this is where the .lef file comes in picture. This lef file contains all the info. So our first task will be the extraction of lef file. But beforehand we should know some guidelines---
+
+1st- Always put input and output ports on the intersection of the vertical and the horrizontal tracks. 
+
+2nd - The width of the standard cell must be in the odd multiples of the track pitch and the height in the odd multiples of the vertical track pitch. 
 
 
 
