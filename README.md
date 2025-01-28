@@ -75,6 +75,7 @@ To build a chip like this,we need to constantly keep in contact with the foundry
 
 So let us arrive at a very important question. **_HOW DO APPLICATION SOFTWARES WORK ?_**
 ![WhatsApp Image 2024-03-22 at 20 43 29_a2b39049](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/904cb523-c789-4cfd-9794-a938a5a01cbe)
+<BR> SOURCE OF IMAGE ~ VSD-IAT PLATFORM
 <br> As you can see in the image that there is a c type program and a layout. For apps to work,  we in the same way need to convert the c-type program to the kind of layout shown. Let us see how........
 <br> ![WhatsApp Image 2024-03-22 at 20 43 45_12738892](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fa35563f-f055-45cc-a674-84bde10faed2)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
